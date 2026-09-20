@@ -1,7 +1,6 @@
 # STM32 Digital Twin — Project Status & Architecture
 
-**Last Updated:** 2026-09-21
-**Project:** Open-source industrial PLC digital twin framework
+<img width="1920" height="1046" alt="image" src="https://github.com/user-attachments/assets/a5b43009-20cd-4034-b948-8ab4126f0774" />
 ---
 
 ## PROJECT OVERVIEW
@@ -16,8 +15,6 @@ A closed-loop digital twin that bridges:
 - PyQt6 control panel    -> live external analog + digital input injection
 - PyQt6 unified UI       -> all 7 viewers + control panel + pipeline in one window
 - matplotlib             -> live PCB visualization with physics overlays
-
-<img width="1920" height="1046" alt="image" src="https://github.com/user-attachments/assets/a5b43009-20cd-4034-b948-8ab4126f0774" />
 
 **Key achievement:** Zero hardcoded circuit knowledge, zero faked inputs.
 Every number on screen traces from a real KiCad component through real
