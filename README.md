@@ -5,6 +5,8 @@
 **Location:** C:\Users\user\Desktop\automation\kicad_plugin
 **Milestone:** Goals 1, 2A, 2B, 2C, 2D, 3 Complete + Control Panels + Unified Dashboard
 
+<img width="1920" height="1046" alt="image" src="https://github.com/user-attachments/assets/a5b43009-20cd-4034-b948-8ab4126f0774" />
+
 ---
 
 ## PROJECT OVERVIEW
