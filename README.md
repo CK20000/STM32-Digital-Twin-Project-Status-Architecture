@@ -22,9 +22,9 @@ Every number on screen traces from a real KiCad component through real
 firmware through real SPICE. Every panel input travels through Renode's
 memory bus and into the SPICE netlist, exactly like a real external signal.
 
-https://github.com/user-attachments/assets/28cafe8e-76d3-48ea-92d0-15f687ff5b82
-
 https://github.com/user-attachments/assets/5415f41c-1950-47eb-a591-bcc1c15813ef
+
+https://github.com/user-attachments/assets/28cafe8e-76d3-48ea-92d0-15f687ff5b82
 
 https://github.com/user-attachments/assets/54334765-b6d6-46bb-97e2-3d35a90c9ced
 
