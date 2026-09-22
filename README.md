@@ -1,6 +1,9 @@
 # KiCAD PCB Digital Twin - Plugin — Project Status & Architecture
 
 <img width="1920" height="1046" alt="image" src="https://github.com/user-attachments/assets/a5b43009-20cd-4034-b948-8ab4126f0774" />
+
+https://github.com/user-attachments/assets/57d7ef48-a6f0-49e4-94a5-dc855cec5e4c
+
 ---
 
 ## PROJECT OVERVIEW
@@ -20,6 +23,16 @@ A closed-loop digital twin that bridges:
 Every number on screen traces from a real KiCad component through real
 firmware through real SPICE. Every panel input travels through Renode's
 memory bus and into the SPICE netlist, exactly like a real external signal.
+
+https://github.com/user-attachments/assets/28cafe8e-76d3-48ea-92d0-15f687ff5b82
+
+https://github.com/user-attachments/assets/5415f41c-1950-47eb-a591-bcc1c15813ef
+
+https://github.com/user-attachments/assets/54334765-b6d6-46bb-97e2-3d35a90c9ced
+
+https://github.com/user-attachments/assets/97b0375e-3175-4ab2-a4fb-0aa53eb2be76
+
+https://github.com/user-attachments/assets/55057f72-92d3-42ab-a68e-e2e90e522510
 
 Full data path:
 
