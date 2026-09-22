@@ -1,6 +1,6 @@
 # KiCAD PCB Digital Twin - Plugin — Project Status & Architecture
 
-<img width="1920" height="1046" alt="image" src="https://github.com/user-attachments/assets/a5b43009-20cd-4034-b948-8ab4126f0774" />
+%<img width="1920" height="1046" alt="image" src="https://github.com/user-attachments/assets/a5b43009-20cd-4034-b948-8ab4126f0774" />%
 
 https://github.com/user-attachments/assets/57d7ef48-a6f0-49e4-94a5-dc855cec5e4c
 
