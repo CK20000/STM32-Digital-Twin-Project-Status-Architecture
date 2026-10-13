@@ -6,6 +6,8 @@ https://github.com/user-attachments/assets/57d7ef48-a6f0-49e4-94a5-dc855cec5e4c
 
 ## PROJECT OVERVIEW
 
+for easy managing I have organized the source files, but if you ever want to run this exact example versions, you need to have all the files in the root directory !!!
+
 A closed-loop digital twin that bridges:
 
 - KiCad PCB design       -> hardware definition (topology + geometry + values)
