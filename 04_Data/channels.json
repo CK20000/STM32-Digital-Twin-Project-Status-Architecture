@@ -1,0 +1,26 @@
+{
+  "comment": "Maps each user-facing channel to its firmware input variable and the observable that mirrors it. Edit by hand when hardware changes.",
+  "adc": {
+    "vref": 3.3,
+    "adc_max": 4095,
+    "divider_ratio": 0.31972789115646257
+  },
+  "channels": [
+    {"id": "A_IN1", "symbol": "in_v_in1", "obs": "obs_v_in1", "kind": "analog", "vmin": 0.0, "vmax": 10.0},
+    {"id": "A_IN2", "symbol": "in_v_in2", "obs": "obs_v_in2", "kind": "analog", "vmin": 0.0, "vmax": 10.0},
+    {"id": "A_IN3", "symbol": "in_v_in3", "obs": "obs_v_in3", "kind": "analog", "vmin": 0.0, "vmax": 10.0},
+    {"id": "A_IN4", "symbol": "in_v_in4", "obs": "obs_v_in4", "kind": "analog", "vmin": 0.0, "vmax": 10.0},
+    {"id": "A_IN5", "symbol": "in_v_in5", "obs": "obs_v_in5", "kind": "analog", "vmin": 0.0, "vmax": 10.0},
+    {"id": "A_IN6", "symbol": "in_v_in6", "obs": "obs_v_in6", "kind": "analog", "vmin": 0.0, "vmax": 10.0},
+    {"id": "A_IN7", "symbol": "in_v_in7", "obs": "obs_v_in7", "kind": "analog", "vmin": 0.0, "vmax": 10.0},
+    {"id": "A_IN8", "symbol": "in_v_in8", "obs": "obs_v_in8", "kind": "analog", "vmin": 0.0, "vmax": 10.0},
+    {"id": "IE8",  "symbol": "in_v_ie8_drv",  "obs": "obs_v_ie8_drv",  "kind": "digital", "von_mv": 5000},
+    {"id": "IE9",  "symbol": "in_v_ie9_drv",  "obs": "obs_v_ie9_drv",  "kind": "digital", "von_mv": 5000},
+    {"id": "IE10", "symbol": "in_v_ie10_drv", "obs": "obs_v_ie10_drv", "kind": "digital", "von_mv": 5000},
+    {"id": "IE11", "symbol": "in_v_ie11_drv", "obs": "obs_v_ie11_drv", "kind": "digital", "von_mv": 5000},
+    {"id": "IE12", "symbol": "in_v_ie12_drv", "obs": "obs_v_ie12_drv", "kind": "digital", "von_mv": 5000},
+    {"id": "IE13", "symbol": "in_v_ie13_drv", "obs": "obs_v_ie13_drv", "kind": "digital", "von_mv": 5000},
+    {"id": "IE14", "symbol": "in_v_ie14_drv", "obs": "obs_v_ie14_drv", "kind": "digital", "von_mv": 5000},
+    {"id": "IE15", "symbol": "in_v_ie15_drv", "obs": "obs_v_ie15_drv", "kind": "digital", "von_mv": 5000}
+  ]
+}

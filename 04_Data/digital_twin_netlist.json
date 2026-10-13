@@ -1,0 +1,3439 @@
+{
+    "GND": {
+        "nodes": [
+            {
+                "component": "J11",
+                "value": "Conn_01x04_Pin",
+                "pin": "1"
+            },
+            {
+                "component": "C9",
+                "value": "470u",
+                "pin": "2"
+            },
+            {
+                "component": "R51",
+                "value": "4.7K",
+                "pin": "2"
+            },
+            {
+                "component": "U8",
+                "value": "6N137",
+                "pin": "5"
+            },
+            {
+                "component": "C10",
+                "value": "1u",
+                "pin": "2"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "A1"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "A12"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "B1"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "B12"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "S1"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "S1"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "S1"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "S1"
+            },
+            {
+                "component": "SW4",
+                "value": "SW_Push",
+                "pin": "1"
+            },
+            {
+                "component": "R6",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "C14",
+                "value": "0.1",
+                "pin": "2"
+            },
+            {
+                "component": "C23",
+                "value": "22p",
+                "pin": "2"
+            },
+            {
+                "component": "C22",
+                "value": "1",
+                "pin": "2"
+            },
+            {
+                "component": "U16",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "R12",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "10"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "20"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "27"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "74"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "99"
+            },
+            {
+                "component": "C13",
+                "value": "0.1",
+                "pin": "2"
+            },
+            {
+                "component": "C16",
+                "value": "0.1",
+                "pin": "2"
+            },
+            {
+                "component": "U32",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "U29",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "C2",
+                "value": "10u",
+                "pin": "2"
+            },
+            {
+                "component": "C18",
+                "value": "0.1",
+                "pin": "2"
+            },
+            {
+                "component": "U14",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "R33",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "U20",
+                "value": "LM358",
+                "pin": "4"
+            },
+            {
+                "component": "J8",
+                "value": "Conn_01x04_Pin",
+                "pin": "1"
+            },
+            {
+                "component": "C24",
+                "value": "22p",
+                "pin": "2"
+            },
+            {
+                "component": "SW3",
+                "value": "SW_Push",
+                "pin": "1"
+            },
+            {
+                "component": "U27",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "U10",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "U18",
+                "value": "MAX3485",
+                "pin": "5"
+            },
+            {
+                "component": "R41",
+                "value": "4.7K",
+                "pin": "2"
+            },
+            {
+                "component": "C20",
+                "value": "2.2u",
+                "pin": "2"
+            },
+            {
+                "component": "U12",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "U31",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "R36",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "R55",
+                "value": "4.7K",
+                "pin": "2"
+            },
+            {
+                "component": "C21",
+                "value": "0.1",
+                "pin": "2"
+            },
+            {
+                "component": "U6",
+                "value": "6N137",
+                "pin": "5"
+            },
+            {
+                "component": "R15",
+                "value": "220",
+                "pin": "2"
+            },
+            {
+                "component": "D1",
+                "value": "BAT54S",
+                "pin": "2"
+            },
+            {
+                "component": "R39",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "R45",
+                "value": "4.7K",
+                "pin": "2"
+            },
+            {
+                "component": "U13",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "4"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "5"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "6"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "7"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "8"
+            },
+            {
+                "component": "U2",
+                "value": "AMS1117-3.3",
+                "pin": "1"
+            },
+            {
+                "component": "C6",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "U17",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "U33",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "C1",
+                "value": "10u",
+                "pin": "2"
+            },
+            {
+                "component": "U11",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "U30",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "R37",
+                "value": "5.1k",
+                "pin": "2"
+            },
+            {
+                "component": "C15",
+                "value": "0.1",
+                "pin": "2"
+            },
+            {
+                "component": "R16",
+                "value": "220",
+                "pin": "2"
+            },
+            {
+                "component": "R14",
+                "value": "220",
+                "pin": "2"
+            },
+            {
+                "component": "R4",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "R34",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "C7",
+                "value": "22u",
+                "pin": "2"
+            },
+            {
+                "component": "R47",
+                "value": "4.7K",
+                "pin": "2"
+            },
+            {
+                "component": "R61",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "C12",
+                "value": "0.1",
+                "pin": "2"
+            },
+            {
+                "component": "C19",
+                "value": "2.2u",
+                "pin": "2"
+            },
+            {
+                "component": "U1",
+                "value": "AMS1117-3.3",
+                "pin": "1"
+            },
+            {
+                "component": "C5",
+                "value": "22u",
+                "pin": "2"
+            },
+            {
+                "component": "D2",
+                "value": "1N5820",
+                "pin": "2"
+            },
+            {
+                "component": "C11",
+                "value": "180u",
+                "pin": "2"
+            },
+            {
+                "component": "U15",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "R10",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "C8",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "R38",
+                "value": "5.1k",
+                "pin": "2"
+            },
+            {
+                "component": "C3",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "R43",
+                "value": "4.7K",
+                "pin": "2"
+            },
+            {
+                "component": "R7",
+                "value": "10M",
+                "pin": "1"
+            },
+            {
+                "component": "R7",
+                "value": "10M",
+                "pin": "2"
+            },
+            {
+                "component": "R8",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "R49",
+                "value": "4.7K",
+                "pin": "2"
+            },
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "15"
+            },
+            {
+                "component": "U26",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "SW1",
+                "value": "SW_Push",
+                "pin": "1"
+            },
+            {
+                "component": "R53",
+                "value": "4.7K",
+                "pin": "2"
+            },
+            {
+                "component": "C17",
+                "value": "0.1",
+                "pin": "2"
+            },
+            {
+                "component": "R35",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "U19",
+                "value": "W25Q128JVS",
+                "pin": "4"
+            },
+            {
+                "component": "U9",
+                "value": "6N137",
+                "pin": "5"
+            },
+            {
+                "component": "J1",
+                "value": "Screw_Terminal_01x02",
+                "pin": "1"
+            },
+            {
+                "component": "U28",
+                "value": "PC817",
+                "pin": "2"
+            },
+            {
+                "component": "C4",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "R13",
+                "value": "220",
+                "pin": "2"
+            },
+            {
+                "component": "R62",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "U7",
+                "value": "6N137",
+                "pin": "5"
+            }
+        ]
+    },
+    "tx": {
+        "nodes": [
+            {
+                "component": "J11",
+                "value": "Conn_01x04_Pin",
+                "pin": "2"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "48"
+            },
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "22"
+            }
+        ]
+    },
+    "rx": {
+        "nodes": [
+            {
+                "component": "J11",
+                "value": "Conn_01x04_Pin",
+                "pin": "3"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "47"
+            },
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "21"
+            }
+        ]
+    },
+    "3v3-LDO1": {
+        "nodes": [
+            {
+                "component": "J11",
+                "value": "Conn_01x04_Pin",
+                "pin": "4"
+            },
+            {
+                "component": "R11",
+                "value": "330",
+                "pin": "2"
+            },
+            {
+                "component": "U32",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "U29",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "U27",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "U31",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "C6",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "U33",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "U30",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "U1",
+                "value": "AMS1117-3.3",
+                "pin": "2"
+            },
+            {
+                "component": "U1",
+                "value": "AMS1117-3.3",
+                "pin": "2"
+            },
+            {
+                "component": "C5",
+                "value": "22u",
+                "pin": "1"
+            },
+            {
+                "component": "R2",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "R3",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "R1",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "8"
+            },
+            {
+                "component": "U26",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "U28",
+                "value": "PC817",
+                "pin": "4"
+            }
+        ]
+    },
+    "cs": {
+        "nodes": [
+            {
+                "component": "J6",
+                "value": "Screw_Terminal_01x06",
+                "pin": "1"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "51"
+            }
+        ]
+    },
+    "sck": {
+        "nodes": [
+            {
+                "component": "J6",
+                "value": "Screw_Terminal_01x06",
+                "pin": "2"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "52"
+            }
+        ]
+    },
+    "miso": {
+        "nodes": [
+            {
+                "component": "J6",
+                "value": "Screw_Terminal_01x06",
+                "pin": "3"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "53"
+            }
+        ]
+    },
+    "mosi": {
+        "nodes": [
+            {
+                "component": "J6",
+                "value": "Screw_Terminal_01x06",
+                "pin": "4"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "54"
+            }
+        ]
+    },
+    "sda": {
+        "nodes": [
+            {
+                "component": "J6",
+                "value": "Screw_Terminal_01x06",
+                "pin": "5"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "93"
+            }
+        ]
+    },
+    "scl": {
+        "nodes": [
+            {
+                "component": "J6",
+                "value": "Screw_Terminal_01x06",
+                "pin": "6"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "92"
+            }
+        ]
+    },
+    "12v": {
+        "nodes": [
+            {
+                "component": "C9",
+                "value": "470u",
+                "pin": "1"
+            },
+            {
+                "component": "C10",
+                "value": "1u",
+                "pin": "1"
+            },
+            {
+                "component": "U20",
+                "value": "LM358",
+                "pin": "8"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "1"
+            },
+            {
+                "component": "J1",
+                "value": "Screw_Terminal_01x02",
+                "pin": "2"
+            }
+        ]
+    },
+    "/f4/IO/OE0": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "1"
+            },
+            {
+                "component": "U10",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "/f4/IO/OE1": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "2"
+            },
+            {
+                "component": "U11",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "/f4/IO/OE2": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "3"
+            },
+            {
+                "component": "U12",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "/f4/IO/OE3": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "4"
+            },
+            {
+                "component": "U13",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "/f4/IO/OE4": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "5"
+            },
+            {
+                "component": "U14",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "/f4/IO/OE5": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "6"
+            },
+            {
+                "component": "U15",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "/f4/IO/OE6": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "7"
+            },
+            {
+                "component": "U16",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "/f4/IO/OE7": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "8"
+            },
+            {
+                "component": "U17",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "/f4/IO/IE8": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "9"
+            },
+            {
+                "component": "R25",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "/f4/IO/IE9": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "10"
+            },
+            {
+                "component": "R26",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "/f4/IO/IE10": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "11"
+            },
+            {
+                "component": "R27",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "/f4/IO/IE11": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "12"
+            },
+            {
+                "component": "R28",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "/f4/IO/IE12": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "13"
+            },
+            {
+                "component": "R29",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "/f4/IO/IE13": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "14"
+            },
+            {
+                "component": "R30",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "/f4/IO/IE14": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "15"
+            },
+            {
+                "component": "R31",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "/f4/IO/IE15": {
+        "nodes": [
+            {
+                "component": "J3",
+                "value": "Screw_Terminal_01x16",
+                "pin": "16"
+            },
+            {
+                "component": "R32",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "/f4/A_IN/A_IN2": {
+        "nodes": [
+            {
+                "component": "R52",
+                "value": "10K",
+                "pin": "1"
+            },
+            {
+                "component": "J7",
+                "value": "Screw_Terminal_01x08",
+                "pin": "2"
+            }
+        ]
+    },
+    "C1": {
+        "nodes": [
+            {
+                "component": "R52",
+                "value": "10K",
+                "pin": "2"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "16"
+            },
+            {
+                "component": "R53",
+                "value": "4.7K",
+                "pin": "1"
+            }
+        ]
+    },
+    "C2": {
+        "nodes": [
+            {
+                "component": "R51",
+                "value": "4.7K",
+                "pin": "1"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "17"
+            },
+            {
+                "component": "R50",
+                "value": "10K",
+                "pin": "2"
+            }
+        ]
+    },
+    "unconnected-(U8-NC-Pad1)": {
+        "nodes": [
+            {
+                "component": "U8",
+                "value": "6N137",
+                "pin": "1"
+            }
+        ]
+    },
+    "D14": {
+        "nodes": [
+            {
+                "component": "U8",
+                "value": "6N137",
+                "pin": "2"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "61"
+            }
+        ]
+    },
+    "Net-(U8-C)": {
+        "nodes": [
+            {
+                "component": "U8",
+                "value": "6N137",
+                "pin": "3"
+            },
+            {
+                "component": "R15",
+                "value": "220",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U8-NC-Pad4)": {
+        "nodes": [
+            {
+                "component": "U8",
+                "value": "6N137",
+                "pin": "4"
+            }
+        ]
+    },
+    "/f4/MOTORS/M3": {
+        "nodes": [
+            {
+                "component": "U8",
+                "value": "6N137",
+                "pin": "6"
+            },
+            {
+                "component": "J2",
+                "value": "Screw_Terminal_01x04",
+                "pin": "3"
+            }
+        ]
+    },
+    "5v": {
+        "nodes": [
+            {
+                "component": "U8",
+                "value": "6N137",
+                "pin": "7"
+            },
+            {
+                "component": "U8",
+                "value": "6N137",
+                "pin": "8"
+            },
+            {
+                "component": "U16",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "C2",
+                "value": "10u",
+                "pin": "1"
+            },
+            {
+                "component": "U14",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "U10",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "U12",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "U6",
+                "value": "6N137",
+                "pin": "7"
+            },
+            {
+                "component": "U6",
+                "value": "6N137",
+                "pin": "8"
+            },
+            {
+                "component": "U13",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "U2",
+                "value": "AMS1117-3.3",
+                "pin": "3"
+            },
+            {
+                "component": "U17",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "C1",
+                "value": "10u",
+                "pin": "1"
+            },
+            {
+                "component": "U11",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "D10",
+                "value": "SS14",
+                "pin": "1"
+            },
+            {
+                "component": "U1",
+                "value": "AMS1117-3.3",
+                "pin": "3"
+            },
+            {
+                "component": "C11",
+                "value": "180u",
+                "pin": "1"
+            },
+            {
+                "component": "U15",
+                "value": "PC817",
+                "pin": "4"
+            },
+            {
+                "component": "C3",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "R9",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "L1",
+                "value": "68u",
+                "pin": "2"
+            },
+            {
+                "component": "U9",
+                "value": "6N137",
+                "pin": "7"
+            },
+            {
+                "component": "U9",
+                "value": "6N137",
+                "pin": "8"
+            },
+            {
+                "component": "C4",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "U7",
+                "value": "6N137",
+                "pin": "7"
+            },
+            {
+                "component": "U7",
+                "value": "6N137",
+                "pin": "8"
+            }
+        ]
+    },
+    "Net-(D4-A)": {
+        "nodes": [
+            {
+                "component": "R11",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "D4",
+                "value": "LED",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(D10-A)": {
+        "nodes": [
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "A4"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "A9"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "B4"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "B9"
+            },
+            {
+                "component": "D10",
+                "value": "SS14",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(J4-CC1)": {
+        "nodes": [
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "A5"
+            },
+            {
+                "component": "R38",
+                "value": "5.1k",
+                "pin": "1"
+            }
+        ]
+    },
+    "USB.D+": {
+        "nodes": [
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "A6"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "B6"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "71"
+            }
+        ]
+    },
+    "USB.D-": {
+        "nodes": [
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "A7"
+            },
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "B7"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "70"
+            }
+        ]
+    },
+    "unconnected-(J4-SBU1-PadA8)": {
+        "nodes": [
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "A8"
+            }
+        ]
+    },
+    "Net-(J4-CC2)": {
+        "nodes": [
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "B5"
+            },
+            {
+                "component": "R37",
+                "value": "5.1k",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(J4-SBU2-PadB8)": {
+        "nodes": [
+            {
+                "component": "J4",
+                "value": "USB_C_Receptacle_USB2.0_16P",
+                "pin": "B8"
+            }
+        ]
+    },
+    "Net-(U4-~{RST})": {
+        "nodes": [
+            {
+                "component": "SW4",
+                "value": "SW_Push",
+                "pin": "2"
+            },
+            {
+                "component": "R2",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "1"
+            }
+        ]
+    },
+    "boot0": {
+        "nodes": [
+            {
+                "component": "R6",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "SW2",
+                "value": "SW_Push",
+                "pin": "1"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "94"
+            }
+        ]
+    },
+    "Net-(R20-Pad1)": {
+        "nodes": [
+            {
+                "component": "R20",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "U13",
+                "value": "PC817",
+                "pin": "1"
+            }
+        ]
+    },
+    "E3": {
+        "nodes": [
+            {
+                "component": "R20",
+                "value": "330",
+                "pin": "2"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "2"
+            }
+        ]
+    },
+    "3v3-LDO2": {
+        "nodes": [
+            {
+                "component": "SW2",
+                "value": "SW_Push",
+                "pin": "2"
+            },
+            {
+                "component": "C14",
+                "value": "0.1",
+                "pin": "1"
+            },
+            {
+                "component": "C22",
+                "value": "1",
+                "pin": "1"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "6"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "11"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "19"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "21"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "28"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "50"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "75"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "100"
+            },
+            {
+                "component": "C13",
+                "value": "0.1",
+                "pin": "1"
+            },
+            {
+                "component": "C16",
+                "value": "0.1",
+                "pin": "1"
+            },
+            {
+                "component": "C18",
+                "value": "0.1",
+                "pin": "1"
+            },
+            {
+                "component": "FB1",
+                "value": "FerriteBead",
+                "pin": "1"
+            },
+            {
+                "component": "J8",
+                "value": "Conn_01x04_Pin",
+                "pin": "4"
+            },
+            {
+                "component": "U18",
+                "value": "MAX3485",
+                "pin": "8"
+            },
+            {
+                "component": "C21",
+                "value": "0.1",
+                "pin": "1"
+            },
+            {
+                "component": "D1",
+                "value": "BAT54S",
+                "pin": "3"
+            },
+            {
+                "component": "R57",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "U2",
+                "value": "AMS1117-3.3",
+                "pin": "2"
+            },
+            {
+                "component": "U2",
+                "value": "AMS1117-3.3",
+                "pin": "2"
+            },
+            {
+                "component": "C15",
+                "value": "0.1",
+                "pin": "1"
+            },
+            {
+                "component": "C7",
+                "value": "22u",
+                "pin": "1"
+            },
+            {
+                "component": "C12",
+                "value": "0.1",
+                "pin": "1"
+            },
+            {
+                "component": "D3",
+                "value": "LED",
+                "pin": "2"
+            },
+            {
+                "component": "R5",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "C8",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "R56",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "R58",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "C17",
+                "value": "0.1",
+                "pin": "1"
+            },
+            {
+                "component": "U19",
+                "value": "W25Q128JVS",
+                "pin": "8"
+            }
+        ]
+    },
+    "PHO": {
+        "nodes": [
+            {
+                "component": "C23",
+                "value": "22p",
+                "pin": "1"
+            },
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "12"
+            },
+            {
+                "component": "Y1",
+                "value": "Crystal",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R30-Pad1)": {
+        "nodes": [
+            {
+                "component": "R30",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "U28",
+                "value": "PC817",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R23-Pad1)": {
+        "nodes": [
+            {
+                "component": "U16",
+                "value": "PC817",
+                "pin": "1"
+            },
+            {
+                "component": "R23",
+                "value": "330",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(D5-K)": {
+        "nodes": [
+            {
+                "component": "R12",
+                "value": "330",
+                "pin": "2"
+            },
+            {
+                "component": "D5",
+                "value": "LED",
+                "pin": "1"
+            }
+        ]
+    },
+    "E2": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "1"
+            },
+            {
+                "component": "R19",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "E4": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "3"
+            },
+            {
+                "component": "R21",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "E5": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "4"
+            },
+            {
+                "component": "R22",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "E6": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "5"
+            },
+            {
+                "component": "R23",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "unconnected-(U5-PC13-Pad7)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "7"
+            }
+        ]
+    },
+    "unconnected-(U5-PC14-Pad8)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "8"
+            }
+        ]
+    },
+    "unconnected-(U5-PC15-Pad9)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "9"
+            }
+        ]
+    },
+    "PH1": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "13"
+            },
+            {
+                "component": "Y1",
+                "value": "Crystal",
+                "pin": "2"
+            },
+            {
+                "component": "C24",
+                "value": "22p",
+                "pin": "1"
+            }
+        ]
+    },
+    "nrst": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "14"
+            },
+            {
+                "component": "R5",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "SW1",
+                "value": "SW_Push",
+                "pin": "2"
+            }
+        ]
+    },
+    "C0": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "15"
+            },
+            {
+                "component": "R54",
+                "value": "10K",
+                "pin": "2"
+            },
+            {
+                "component": "R55",
+                "value": "4.7K",
+                "pin": "1"
+            }
+        ]
+    },
+    "C3": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "18"
+            },
+            {
+                "component": "R48",
+                "value": "10K",
+                "pin": "2"
+            },
+            {
+                "component": "R49",
+                "value": "4.7K",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(U5-VDDA)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "22"
+            },
+            {
+                "component": "FB1",
+                "value": "FerriteBead",
+                "pin": "2"
+            }
+        ]
+    },
+    "5v_sense": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "23"
+            },
+            {
+                "component": "D1",
+                "value": "BAT54S",
+                "pin": "1"
+            },
+            {
+                "component": "R9",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "R8",
+                "value": "10k",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U5-PA1-Pad24)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "24"
+            }
+        ]
+    },
+    "tx2": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "25"
+            },
+            {
+                "component": "U18",
+                "value": "MAX3485",
+                "pin": "4"
+            }
+        ]
+    },
+    "rx2": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "26"
+            },
+            {
+                "component": "U18",
+                "value": "MAX3485",
+                "pin": "1"
+            }
+        ]
+    },
+    "daq1": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "29"
+            },
+            {
+                "component": "U20",
+                "value": "LM358",
+                "pin": "3"
+            }
+        ]
+    },
+    "daq2": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "30"
+            },
+            {
+                "component": "U20",
+                "value": "LM358",
+                "pin": "5"
+            }
+        ]
+    },
+    "unconnected-(U5-PA6-Pad31)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "31"
+            }
+        ]
+    },
+    "unconnected-(U5-PA7-Pad32)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "32"
+            }
+        ]
+    },
+    "C4": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "33"
+            },
+            {
+                "component": "R47",
+                "value": "4.7K",
+                "pin": "1"
+            },
+            {
+                "component": "R46",
+                "value": "10K",
+                "pin": "2"
+            }
+        ]
+    },
+    "C5": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "34"
+            },
+            {
+                "component": "R45",
+                "value": "4.7K",
+                "pin": "1"
+            },
+            {
+                "component": "R44",
+                "value": "10K",
+                "pin": "2"
+            }
+        ]
+    },
+    "B0": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "35"
+            },
+            {
+                "component": "R43",
+                "value": "4.7K",
+                "pin": "1"
+            },
+            {
+                "component": "R42",
+                "value": "10K",
+                "pin": "2"
+            }
+        ]
+    },
+    "B1": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "36"
+            },
+            {
+                "component": "R41",
+                "value": "4.7K",
+                "pin": "1"
+            },
+            {
+                "component": "R40",
+                "value": "10K",
+                "pin": "2"
+            }
+        ]
+    },
+    "unconnected-(U5-PB2-Pad37)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "37"
+            }
+        ]
+    },
+    "E7": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "38"
+            },
+            {
+                "component": "R24",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "E8": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "39"
+            },
+            {
+                "component": "U31",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "E9": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "40"
+            },
+            {
+                "component": "U32",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "E10": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "41"
+            },
+            {
+                "component": "U33",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "E11": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "42"
+            },
+            {
+                "component": "U26",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "E12": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "43"
+            },
+            {
+                "component": "U27",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "E13": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "44"
+            },
+            {
+                "component": "U28",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "E14": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "45"
+            },
+            {
+                "component": "U29",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "E15": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "46"
+            },
+            {
+                "component": "U30",
+                "value": "PC817",
+                "pin": "3"
+            }
+        ]
+    },
+    "Net-(U5-VCAP_1)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "49"
+            },
+            {
+                "component": "C19",
+                "value": "2.2u",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U5-PD8-Pad55)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "55"
+            }
+        ]
+    },
+    "unconnected-(U5-PD9-Pad56)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "56"
+            }
+        ]
+    },
+    "unconnected-(U5-PD10-Pad57)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "57"
+            }
+        ]
+    },
+    "~{RE} DE": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "58"
+            },
+            {
+                "component": "U18",
+                "value": "MAX3485",
+                "pin": "2"
+            },
+            {
+                "component": "U18",
+                "value": "MAX3485",
+                "pin": "3"
+            },
+            {
+                "component": "R39",
+                "value": "10k",
+                "pin": "1"
+            }
+        ]
+    },
+    "D12": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "59"
+            },
+            {
+                "component": "U7",
+                "value": "6N137",
+                "pin": "2"
+            }
+        ]
+    },
+    "D13": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "60"
+            },
+            {
+                "component": "U6",
+                "value": "6N137",
+                "pin": "2"
+            }
+        ]
+    },
+    "D15": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "62"
+            },
+            {
+                "component": "U9",
+                "value": "6N137",
+                "pin": "2"
+            }
+        ]
+    },
+    "unconnected-(U5-PC6-Pad63)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "63"
+            }
+        ]
+    },
+    "unconnected-(U5-PC7-Pad64)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "64"
+            }
+        ]
+    },
+    "unconnected-(U5-PC8-Pad65)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "65"
+            }
+        ]
+    },
+    "unconnected-(U5-PC9-Pad66)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "66"
+            }
+        ]
+    },
+    "unconnected-(U5-PA8-Pad67)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "67"
+            }
+        ]
+    },
+    "usb_led": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "68"
+            },
+            {
+                "component": "D5",
+                "value": "LED",
+                "pin": "2"
+            }
+        ]
+    },
+    "unconnected-(U5-PA10-Pad69)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "69"
+            }
+        ]
+    },
+    "SWDIO": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "72"
+            },
+            {
+                "component": "J8",
+                "value": "Conn_01x04_Pin",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(U5-VCAP_2)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "73"
+            },
+            {
+                "component": "C20",
+                "value": "2.2u",
+                "pin": "1"
+            }
+        ]
+    },
+    "SWCLK": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "76"
+            },
+            {
+                "component": "J8",
+                "value": "Conn_01x04_Pin",
+                "pin": "3"
+            }
+        ]
+    },
+    "unconnected-(U5-PA15-Pad77)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "77"
+            }
+        ]
+    },
+    "unconnected-(U5-PC10-Pad78)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "78"
+            }
+        ]
+    },
+    "unconnected-(U5-PC11-Pad79)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "79"
+            }
+        ]
+    },
+    "unconnected-(U5-PC12-Pad80)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "80"
+            }
+        ]
+    },
+    "D0": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "81"
+            },
+            {
+                "component": "D6",
+                "value": "LED",
+                "pin": "2"
+            }
+        ]
+    },
+    "D1": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "82"
+            },
+            {
+                "component": "D7",
+                "value": "LED",
+                "pin": "2"
+            }
+        ]
+    },
+    "D2": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "83"
+            },
+            {
+                "component": "D8",
+                "value": "LED",
+                "pin": "2"
+            }
+        ]
+    },
+    "D3": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "84"
+            },
+            {
+                "component": "D9",
+                "value": "LED",
+                "pin": "2"
+            }
+        ]
+    },
+    "unconnected-(U5-PD4-Pad85)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "85"
+            }
+        ]
+    },
+    "unconnected-(U5-PD5-Pad86)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "86"
+            }
+        ]
+    },
+    "unconnected-(U5-PD6-Pad87)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "87"
+            }
+        ]
+    },
+    "w_cs": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "88"
+            },
+            {
+                "component": "R56",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "U19",
+                "value": "W25Q128JVS",
+                "pin": "1"
+            }
+        ]
+    },
+    "w_clk": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "89"
+            },
+            {
+                "component": "U19",
+                "value": "W25Q128JVS",
+                "pin": "6"
+            }
+        ]
+    },
+    "w_miso": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "90"
+            },
+            {
+                "component": "U19",
+                "value": "W25Q128JVS",
+                "pin": "2"
+            }
+        ]
+    },
+    "w_mosi": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "91"
+            },
+            {
+                "component": "U19",
+                "value": "W25Q128JVS",
+                "pin": "5"
+            }
+        ]
+    },
+    "unconnected-(U5-PB8-Pad95)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "95"
+            }
+        ]
+    },
+    "unconnected-(U5-PB9-Pad96)": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "96"
+            }
+        ]
+    },
+    "E0": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "97"
+            },
+            {
+                "component": "R17",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "E1": {
+        "nodes": [
+            {
+                "component": "U5",
+                "value": "STM32F407VETx",
+                "pin": "98"
+            },
+            {
+                "component": "R18",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(R26-Pad1)": {
+        "nodes": [
+            {
+                "component": "U32",
+                "value": "PC817",
+                "pin": "1"
+            },
+            {
+                "component": "R26",
+                "value": "330",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R31-Pad1)": {
+        "nodes": [
+            {
+                "component": "U29",
+                "value": "PC817",
+                "pin": "1"
+            },
+            {
+                "component": "R31",
+                "value": "330",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R17-Pad1)": {
+        "nodes": [
+            {
+                "component": "R17",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "U10",
+                "value": "PC817",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R21-Pad1)": {
+        "nodes": [
+            {
+                "component": "U14",
+                "value": "PC817",
+                "pin": "1"
+            },
+            {
+                "component": "R21",
+                "value": "330",
+                "pin": "1"
+            }
+        ]
+    },
+    "/f4/MOTORS/M1": {
+        "nodes": [
+            {
+                "component": "J2",
+                "value": "Screw_Terminal_01x04",
+                "pin": "1"
+            },
+            {
+                "component": "U7",
+                "value": "6N137",
+                "pin": "6"
+            }
+        ]
+    },
+    "/f4/MOTORS/M2": {
+        "nodes": [
+            {
+                "component": "J2",
+                "value": "Screw_Terminal_01x04",
+                "pin": "2"
+            },
+            {
+                "component": "U6",
+                "value": "6N137",
+                "pin": "6"
+            }
+        ]
+    },
+    "/f4/MOTORS/M4": {
+        "nodes": [
+            {
+                "component": "J2",
+                "value": "Screw_Terminal_01x04",
+                "pin": "4"
+            },
+            {
+                "component": "U9",
+                "value": "6N137",
+                "pin": "6"
+            }
+        ]
+    },
+    "/f4/A_IN/A_IN1": {
+        "nodes": [
+            {
+                "component": "R54",
+                "value": "10K",
+                "pin": "1"
+            },
+            {
+                "component": "J7",
+                "value": "Screw_Terminal_01x08",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(D6-K)": {
+        "nodes": [
+            {
+                "component": "R33",
+                "value": "330",
+                "pin": "2"
+            },
+            {
+                "component": "D6",
+                "value": "LED",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(J9-Pin_1)": {
+        "nodes": [
+            {
+                "component": "U20",
+                "value": "LM358",
+                "pin": "1"
+            },
+            {
+                "component": "R59",
+                "value": "20k",
+                "pin": "2"
+            },
+            {
+                "component": "J9",
+                "value": "Screw_Terminal_01x02",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(U20A--)": {
+        "nodes": [
+            {
+                "component": "U20",
+                "value": "LM358",
+                "pin": "2"
+            },
+            {
+                "component": "R59",
+                "value": "20k",
+                "pin": "1"
+            },
+            {
+                "component": "R61",
+                "value": "10k",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(U20B--)": {
+        "nodes": [
+            {
+                "component": "U20",
+                "value": "LM358",
+                "pin": "6"
+            },
+            {
+                "component": "R60",
+                "value": "20k",
+                "pin": "1"
+            },
+            {
+                "component": "R62",
+                "value": "10k",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(J9-Pin_2)": {
+        "nodes": [
+            {
+                "component": "U20",
+                "value": "LM358",
+                "pin": "7"
+            },
+            {
+                "component": "R60",
+                "value": "20k",
+                "pin": "2"
+            },
+            {
+                "component": "J9",
+                "value": "Screw_Terminal_01x02",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(U4-GPIO0)": {
+        "nodes": [
+            {
+                "component": "SW3",
+                "value": "SW_Push",
+                "pin": "2"
+            },
+            {
+                "component": "R3",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "18"
+            }
+        ]
+    },
+    "Net-(R29-Pad1)": {
+        "nodes": [
+            {
+                "component": "U27",
+                "value": "PC817",
+                "pin": "1"
+            },
+            {
+                "component": "R29",
+                "value": "330",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R22-Pad1)": {
+        "nodes": [
+            {
+                "component": "R22",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "U15",
+                "value": "PC817",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(J10-Pin_1)": {
+        "nodes": [
+            {
+                "component": "U18",
+                "value": "MAX3485",
+                "pin": "6"
+            },
+            {
+                "component": "J10",
+                "value": "Conn_01x02_Pin",
+                "pin": "1"
+            },
+            {
+                "component": "J5",
+                "value": "Screw_Terminal_01x02",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(J5-Pin_2)": {
+        "nodes": [
+            {
+                "component": "U18",
+                "value": "MAX3485",
+                "pin": "7"
+            },
+            {
+                "component": "R63",
+                "value": "120",
+                "pin": "1"
+            },
+            {
+                "component": "J5",
+                "value": "Screw_Terminal_01x02",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(D8-K)": {
+        "nodes": [
+            {
+                "component": "D8",
+                "value": "LED",
+                "pin": "1"
+            },
+            {
+                "component": "R35",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(R28-Pad1)": {
+        "nodes": [
+            {
+                "component": "R28",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "U26",
+                "value": "PC817",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R19-Pad1)": {
+        "nodes": [
+            {
+                "component": "U12",
+                "value": "PC817",
+                "pin": "1"
+            },
+            {
+                "component": "R19",
+                "value": "330",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R25-Pad1)": {
+        "nodes": [
+            {
+                "component": "U31",
+                "value": "PC817",
+                "pin": "1"
+            },
+            {
+                "component": "R25",
+                "value": "330",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(D9-K)": {
+        "nodes": [
+            {
+                "component": "R36",
+                "value": "330",
+                "pin": "2"
+            },
+            {
+                "component": "D9",
+                "value": "LED",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R24-Pad1)": {
+        "nodes": [
+            {
+                "component": "R24",
+                "value": "330",
+                "pin": "1"
+            },
+            {
+                "component": "U17",
+                "value": "PC817",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U6-NC-Pad1)": {
+        "nodes": [
+            {
+                "component": "U6",
+                "value": "6N137",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(U6-C)": {
+        "nodes": [
+            {
+                "component": "U6",
+                "value": "6N137",
+                "pin": "3"
+            },
+            {
+                "component": "R14",
+                "value": "220",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U6-NC-Pad4)": {
+        "nodes": [
+            {
+                "component": "U6",
+                "value": "6N137",
+                "pin": "4"
+            }
+        ]
+    },
+    "Net-(D4-K)": {
+        "nodes": [
+            {
+                "component": "D4",
+                "value": "LED",
+                "pin": "1"
+            },
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "17"
+            }
+        ]
+    },
+    "Net-(D7-K)": {
+        "nodes": [
+            {
+                "component": "D7",
+                "value": "LED",
+                "pin": "1"
+            },
+            {
+                "component": "R34",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(U19-~{WP}{slash}IO_{2})": {
+        "nodes": [
+            {
+                "component": "R57",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U19",
+                "value": "W25Q128JVS",
+                "pin": "3"
+            }
+        ]
+    },
+    "Net-(D2-K)": {
+        "nodes": [
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "2"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "3"
+            },
+            {
+                "component": "D2",
+                "value": "1N5820",
+                "pin": "1"
+            },
+            {
+                "component": "L1",
+                "value": "68u",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R27-Pad1)": {
+        "nodes": [
+            {
+                "component": "U33",
+                "value": "PC817",
+                "pin": "1"
+            },
+            {
+                "component": "R27",
+                "value": "330",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R18-Pad1)": {
+        "nodes": [
+            {
+                "component": "U11",
+                "value": "PC817",
+                "pin": "1"
+            },
+            {
+                "component": "R18",
+                "value": "330",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(R32-Pad1)": {
+        "nodes": [
+            {
+                "component": "U30",
+                "value": "PC817",
+                "pin": "1"
+            },
+            {
+                "component": "R32",
+                "value": "330",
+                "pin": "1"
+            }
+        ]
+    },
+    "/f4/A_IN/A_IN4": {
+        "nodes": [
+            {
+                "component": "R48",
+                "value": "10K",
+                "pin": "1"
+            },
+            {
+                "component": "J7",
+                "value": "Screw_Terminal_01x08",
+                "pin": "4"
+            }
+        ]
+    },
+    "Net-(U9-C)": {
+        "nodes": [
+            {
+                "component": "R16",
+                "value": "220",
+                "pin": "1"
+            },
+            {
+                "component": "U9",
+                "value": "6N137",
+                "pin": "3"
+            }
+        ]
+    },
+    "Net-(J10-Pin_2)": {
+        "nodes": [
+            {
+                "component": "J10",
+                "value": "Conn_01x02_Pin",
+                "pin": "2"
+            },
+            {
+                "component": "R63",
+                "value": "120",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(U4-GPIO15)": {
+        "nodes": [
+            {
+                "component": "R4",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "16"
+            }
+        ]
+    },
+    "/f4/A_IN/A_IN3": {
+        "nodes": [
+            {
+                "component": "R50",
+                "value": "10K",
+                "pin": "1"
+            },
+            {
+                "component": "J7",
+                "value": "Screw_Terminal_01x08",
+                "pin": "3"
+            }
+        ]
+    },
+    "Net-(D3-K)": {
+        "nodes": [
+            {
+                "component": "D3",
+                "value": "LED",
+                "pin": "1"
+            },
+            {
+                "component": "R10",
+                "value": "330",
+                "pin": "2"
+            }
+        ]
+    },
+    "/f4/A_IN/A_IN8": {
+        "nodes": [
+            {
+                "component": "R40",
+                "value": "10K",
+                "pin": "1"
+            },
+            {
+                "component": "J7",
+                "value": "Screw_Terminal_01x08",
+                "pin": "8"
+            }
+        ]
+    },
+    "/f4/A_IN/A_IN6": {
+        "nodes": [
+            {
+                "component": "R44",
+                "value": "10K",
+                "pin": "1"
+            },
+            {
+                "component": "J7",
+                "value": "Screw_Terminal_01x08",
+                "pin": "6"
+            }
+        ]
+    },
+    "/f4/A_IN/A_IN5": {
+        "nodes": [
+            {
+                "component": "R46",
+                "value": "10K",
+                "pin": "1"
+            },
+            {
+                "component": "J7",
+                "value": "Screw_Terminal_01x08",
+                "pin": "5"
+            }
+        ]
+    },
+    "/f4/A_IN/A_IN7": {
+        "nodes": [
+            {
+                "component": "R42",
+                "value": "10K",
+                "pin": "1"
+            },
+            {
+                "component": "J7",
+                "value": "Screw_Terminal_01x08",
+                "pin": "7"
+            }
+        ]
+    },
+    "Net-(U4-EN)": {
+        "nodes": [
+            {
+                "component": "R1",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "3"
+            }
+        ]
+    },
+    "unconnected-(U4-ADC-Pad2)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "2"
+            }
+        ]
+    },
+    "unconnected-(U4-GPIO16-Pad4)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "4"
+            }
+        ]
+    },
+    "unconnected-(U4-GPIO14-Pad5)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "5"
+            }
+        ]
+    },
+    "unconnected-(U4-GPIO12-Pad6)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "6"
+            }
+        ]
+    },
+    "unconnected-(U4-GPIO13-Pad7)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "7"
+            }
+        ]
+    },
+    "unconnected-(U4-CS0-Pad9)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "9"
+            }
+        ]
+    },
+    "unconnected-(U4-MISO-Pad10)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "10"
+            }
+        ]
+    },
+    "unconnected-(U4-GPIO9-Pad11)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "11"
+            }
+        ]
+    },
+    "unconnected-(U4-GPIO10-Pad12)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "12"
+            }
+        ]
+    },
+    "unconnected-(U4-MOSI-Pad13)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "13"
+            }
+        ]
+    },
+    "unconnected-(U4-SCLK-Pad14)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "14"
+            }
+        ]
+    },
+    "unconnected-(U4-GPIO4-Pad19)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "19"
+            }
+        ]
+    },
+    "unconnected-(U4-GPIO5-Pad20)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "ESP-12F",
+                "pin": "20"
+            }
+        ]
+    },
+    "Net-(U19-~{HOLD}{slash}~{RESET}{slash}IO_{3})": {
+        "nodes": [
+            {
+                "component": "R58",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U19",
+                "value": "W25Q128JVS",
+                "pin": "7"
+            }
+        ]
+    },
+    "unconnected-(U9-NC-Pad1)": {
+        "nodes": [
+            {
+                "component": "U9",
+                "value": "6N137",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U9-NC-Pad4)": {
+        "nodes": [
+            {
+                "component": "U9",
+                "value": "6N137",
+                "pin": "4"
+            }
+        ]
+    },
+    "Net-(U7-C)": {
+        "nodes": [
+            {
+                "component": "R13",
+                "value": "220",
+                "pin": "1"
+            },
+            {
+                "component": "U7",
+                "value": "6N137",
+                "pin": "3"
+            }
+        ]
+    },
+    "unconnected-(U7-NC-Pad1)": {
+        "nodes": [
+            {
+                "component": "U7",
+                "value": "6N137",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U7-NC-Pad4)": {
+        "nodes": [
+            {
+                "component": "U7",
+                "value": "6N137",
+                "pin": "4"
+            }
+        ]
+    }
+}

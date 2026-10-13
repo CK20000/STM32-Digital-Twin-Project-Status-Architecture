@@ -1,0 +1,269 @@
+{
+  "observables": [
+    {
+      "name": "in_v_ie10_drv",
+      "addr": "0x20000278",
+      "size": 2
+    },
+    {
+      "name": "in_v_ie11_drv",
+      "addr": "0x2000027A",
+      "size": 2
+    },
+    {
+      "name": "in_v_ie12_drv",
+      "addr": "0x2000027C",
+      "size": 2
+    },
+    {
+      "name": "in_v_ie13_drv",
+      "addr": "0x2000027E",
+      "size": 2
+    },
+    {
+      "name": "in_v_ie14_drv",
+      "addr": "0x20000280",
+      "size": 2
+    },
+    {
+      "name": "in_v_ie15_drv",
+      "addr": "0x20000282",
+      "size": 2
+    },
+    {
+      "name": "in_v_ie8_drv",
+      "addr": "0x20000274",
+      "size": 2
+    },
+    {
+      "name": "in_v_ie9_drv",
+      "addr": "0x20000276",
+      "size": 2
+    },
+    {
+      "name": "in_v_in1",
+      "addr": "0x20000264",
+      "size": 2
+    },
+    {
+      "name": "in_v_in2",
+      "addr": "0x20000266",
+      "size": 2
+    },
+    {
+      "name": "in_v_in3",
+      "addr": "0x20000268",
+      "size": 2
+    },
+    {
+      "name": "in_v_in4",
+      "addr": "0x2000026A",
+      "size": 2
+    },
+    {
+      "name": "in_v_in5",
+      "addr": "0x2000026C",
+      "size": 2
+    },
+    {
+      "name": "in_v_in6",
+      "addr": "0x2000026E",
+      "size": 2
+    },
+    {
+      "name": "in_v_in7",
+      "addr": "0x20000270",
+      "size": 2
+    },
+    {
+      "name": "in_v_in8",
+      "addr": "0x20000272",
+      "size": 2
+    },
+    {
+      "name": "obs_sim_tick",
+      "addr": "0x20000250",
+      "size": 4
+    },
+    {
+      "name": "obs_v_d12_drv",
+      "addr": "0x2000024A",
+      "size": 1
+    },
+    {
+      "name": "obs_v_d13_drv",
+      "addr": "0x2000024B",
+      "size": 1
+    },
+    {
+      "name": "obs_v_d14_drv",
+      "addr": "0x2000024C",
+      "size": 1
+    },
+    {
+      "name": "obs_v_d15_drv",
+      "addr": "0x2000024D",
+      "size": 1
+    },
+    {
+      "name": "obs_v_d4_drv",
+      "addr": "0x2000023C",
+      "size": 1
+    },
+    {
+      "name": "obs_v_d5_drv",
+      "addr": "0x2000023D",
+      "size": 1
+    },
+    {
+      "name": "obs_v_d6_drv",
+      "addr": "0x2000023E",
+      "size": 1
+    },
+    {
+      "name": "obs_v_d7_drv",
+      "addr": "0x2000023F",
+      "size": 1
+    },
+    {
+      "name": "obs_v_d8_drv",
+      "addr": "0x20000240",
+      "size": 1
+    },
+    {
+      "name": "obs_v_d9_drv",
+      "addr": "0x20000241",
+      "size": 1
+    },
+    {
+      "name": "obs_v_daq1",
+      "addr": "0x20000238",
+      "size": 2
+    },
+    {
+      "name": "obs_v_daq2",
+      "addr": "0x2000023A",
+      "size": 2
+    },
+    {
+      "name": "obs_v_e0_drv",
+      "addr": "0x20000242",
+      "size": 1
+    },
+    {
+      "name": "obs_v_e1_drv",
+      "addr": "0x20000243",
+      "size": 1
+    },
+    {
+      "name": "obs_v_e2_drv",
+      "addr": "0x20000244",
+      "size": 1
+    },
+    {
+      "name": "obs_v_e3_drv",
+      "addr": "0x20000245",
+      "size": 1
+    },
+    {
+      "name": "obs_v_e4_drv",
+      "addr": "0x20000246",
+      "size": 1
+    },
+    {
+      "name": "obs_v_e5_drv",
+      "addr": "0x20000247",
+      "size": 1
+    },
+    {
+      "name": "obs_v_e6_drv",
+      "addr": "0x20000248",
+      "size": 1
+    },
+    {
+      "name": "obs_v_e7_drv",
+      "addr": "0x20000249",
+      "size": 1
+    },
+    {
+      "name": "obs_v_ie10_drv",
+      "addr": "0x20000288",
+      "size": 2
+    },
+    {
+      "name": "obs_v_ie11_drv",
+      "addr": "0x2000028A",
+      "size": 2
+    },
+    {
+      "name": "obs_v_ie12_drv",
+      "addr": "0x2000028C",
+      "size": 2
+    },
+    {
+      "name": "obs_v_ie13_drv",
+      "addr": "0x2000028E",
+      "size": 2
+    },
+    {
+      "name": "obs_v_ie14_drv",
+      "addr": "0x20000290",
+      "size": 2
+    },
+    {
+      "name": "obs_v_ie15_drv",
+      "addr": "0x20000292",
+      "size": 2
+    },
+    {
+      "name": "obs_v_ie8_drv",
+      "addr": "0x20000284",
+      "size": 2
+    },
+    {
+      "name": "obs_v_ie9_drv",
+      "addr": "0x20000286",
+      "size": 2
+    },
+    {
+      "name": "obs_v_in1",
+      "addr": "0x20000228",
+      "size": 2
+    },
+    {
+      "name": "obs_v_in2",
+      "addr": "0x2000022A",
+      "size": 2
+    },
+    {
+      "name": "obs_v_in3",
+      "addr": "0x2000022C",
+      "size": 2
+    },
+    {
+      "name": "obs_v_in4",
+      "addr": "0x2000022E",
+      "size": 2
+    },
+    {
+      "name": "obs_v_in5",
+      "addr": "0x20000230",
+      "size": 2
+    },
+    {
+      "name": "obs_v_in6",
+      "addr": "0x20000232",
+      "size": 2
+    },
+    {
+      "name": "obs_v_in7",
+      "addr": "0x20000234",
+      "size": 2
+    },
+    {
+      "name": "obs_v_in8",
+      "addr": "0x20000236",
+      "size": 2
+    }
+  ]
+}

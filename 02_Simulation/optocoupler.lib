@@ -1,0 +1,19 @@
+* Behavioral optocoupler models for digital twin.
+* The LED (input) side is a real diode. The output side is a behavioral
+* current source that turns on when the LED is forward-biased above ~1V.
+
+* PC817 - general purpose optocoupler (SMD-4)
+* Pinout: 1=Anode, 2=Cathode, 3=Emitter, 4=Collector
+.SUBCKT PC817 A K C E
+D_LED A K LEDMOD
+R_off C E 1Meg
+B_photo C E I = { (V(A,K) > 1.0) ? V(C,E)/100 : 0 }
+.ENDS
+
+* 6N137 - high speed optocoupler (SMD-8)
+* Pinout: 2=Anode, 3=Cathode, 5=GND, 6=VO
+.SUBCKT 6N137 A K VO GND
+D_LED A K LEDMOD
+R_off VO GND 1Meg
+B_photo VO GND I = { (V(A,K) > 1.0) ? V(VO,GND)/100 : 0 }
+.ENDS

@@ -1,0 +1,1670 @@
+{
+  "component_count": 143,
+  "type_summary": {
+    "connector": 11,
+    "capacitor": 24,
+    "resistor": 63,
+    "optocoupler_hs": 4,
+    "switch": 4,
+    "optocoupler": 16,
+    "mcu": 1,
+    "opamp_dual": 1,
+    "rs485_transceiver": 1,
+    "dual_schottky": 1,
+    "buck": 1,
+    "ldo": 2,
+    "schottky": 2,
+    "wifi_module": 1,
+    "spi_flash": 1,
+    "inductor": 1,
+    "led": 7,
+    "ferrite_bead": 1,
+    "crystal": 1
+  },
+  "components": {
+    "J11": {
+      "type": "connector",
+      "raw_value": "Conn_01x04_Pin",
+      "nets": [
+        "GND",
+        "tx",
+        "rx",
+        "3v3-LDO1"
+      ],
+      "pin_count": 4
+    },
+    "C9": {
+      "type": "capacitor",
+      "farads": 0.00047,
+      "raw_value": "470u",
+      "nets": [
+        "GND",
+        "12v"
+      ],
+      "pin_count": 2
+    },
+    "R51": {
+      "type": "resistor",
+      "ohms": 4700.0,
+      "raw_value": "4.7K",
+      "nets": [
+        "GND",
+        "C2"
+      ],
+      "pin_count": 2
+    },
+    "U8": {
+      "type": "optocoupler_hs",
+      "raw_value": "6N137",
+      "model": "6N137",
+      "nets": [
+        "GND",
+        "unconnected-(U8-NC-Pad1)",
+        "D14",
+        "Net-(U8-C)",
+        "unconnected-(U8-NC-Pad4)",
+        "/f4/MOTORS/M3",
+        "5v"
+      ],
+      "pin_count": 7
+    },
+    "C10": {
+      "type": "capacitor",
+      "farads": 1e-06,
+      "raw_value": "1u",
+      "nets": [
+        "GND",
+        "12v"
+      ],
+      "pin_count": 2
+    },
+    "J4": {
+      "type": "connector",
+      "raw_value": "USB_C_Receptacle_USB2.0_16P",
+      "nets": [
+        "GND",
+        "Net-(D10-A)",
+        "Net-(J4-CC1)",
+        "USB.D+",
+        "USB.D-",
+        "unconnected-(J4-SBU1-PadA8)",
+        "Net-(J4-CC2)",
+        "unconnected-(J4-SBU2-PadB8)"
+      ],
+      "pin_count": 8
+    },
+    "SW4": {
+      "type": "switch",
+      "raw_value": "SW_Push",
+      "nets": [
+        "GND",
+        "Net-(U4-~{RST})"
+      ],
+      "pin_count": 2
+    },
+    "R6": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "GND",
+        "boot0"
+      ],
+      "pin_count": 2
+    },
+    "C14": {
+      "type": "capacitor",
+      "farads": 0.1,
+      "raw_value": "0.1",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "C23": {
+      "type": "capacitor",
+      "farads": 2.1999999999999998e-11,
+      "raw_value": "22p",
+      "nets": [
+        "GND",
+        "PHO"
+      ],
+      "pin_count": 2
+    },
+    "C22": {
+      "type": "capacitor",
+      "farads": 1.0,
+      "raw_value": "1",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "U16": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "/f4/IO/OE6",
+        "5v",
+        "Net-(R23-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "R12": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "GND",
+        "Net-(D5-K)"
+      ],
+      "pin_count": 2
+    },
+    "U5": {
+      "type": "mcu",
+      "raw_value": "STM32F407VETx",
+      "model": "STM32F407VETX",
+      "i_typ_a": 0.05,
+      "nets": [
+        "GND",
+        "tx",
+        "rx",
+        "cs",
+        "sck",
+        "miso",
+        "mosi",
+        "sda",
+        "scl",
+        "C1",
+        "C2",
+        "D14",
+        "USB.D+",
+        "USB.D-",
+        "boot0",
+        "E3",
+        "3v3-LDO2",
+        "PHO",
+        "E2",
+        "E4",
+        "E5",
+        "E6",
+        "unconnected-(U5-PC13-Pad7)",
+        "unconnected-(U5-PC14-Pad8)",
+        "unconnected-(U5-PC15-Pad9)",
+        "PH1",
+        "nrst",
+        "C0",
+        "C3",
+        "Net-(U5-VDDA)",
+        "5v_sense",
+        "unconnected-(U5-PA1-Pad24)",
+        "tx2",
+        "rx2",
+        "daq1",
+        "daq2",
+        "unconnected-(U5-PA6-Pad31)",
+        "unconnected-(U5-PA7-Pad32)",
+        "C4",
+        "C5",
+        "B0",
+        "B1",
+        "unconnected-(U5-PB2-Pad37)",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "Net-(U5-VCAP_1)",
+        "unconnected-(U5-PD8-Pad55)",
+        "unconnected-(U5-PD9-Pad56)",
+        "unconnected-(U5-PD10-Pad57)",
+        "~{RE} DE",
+        "D12",
+        "D13",
+        "D15",
+        "unconnected-(U5-PC6-Pad63)",
+        "unconnected-(U5-PC7-Pad64)",
+        "unconnected-(U5-PC8-Pad65)",
+        "unconnected-(U5-PC9-Pad66)",
+        "unconnected-(U5-PA8-Pad67)",
+        "usb_led",
+        "unconnected-(U5-PA10-Pad69)",
+        "SWDIO",
+        "Net-(U5-VCAP_2)",
+        "SWCLK",
+        "unconnected-(U5-PA15-Pad77)",
+        "unconnected-(U5-PC10-Pad78)",
+        "unconnected-(U5-PC11-Pad79)",
+        "unconnected-(U5-PC12-Pad80)",
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "unconnected-(U5-PD4-Pad85)",
+        "unconnected-(U5-PD5-Pad86)",
+        "unconnected-(U5-PD6-Pad87)",
+        "w_cs",
+        "w_clk",
+        "w_miso",
+        "w_mosi",
+        "unconnected-(U5-PB8-Pad95)",
+        "unconnected-(U5-PB9-Pad96)",
+        "E0",
+        "E1"
+      ],
+      "pin_count": 89
+    },
+    "C13": {
+      "type": "capacitor",
+      "farads": 0.1,
+      "raw_value": "0.1",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "C16": {
+      "type": "capacitor",
+      "farads": 0.1,
+      "raw_value": "0.1",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "U32": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "3v3-LDO1",
+        "E9",
+        "Net-(R26-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "U29": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "3v3-LDO1",
+        "E14",
+        "Net-(R31-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "C2": {
+      "type": "capacitor",
+      "farads": 9.999999999999999e-06,
+      "raw_value": "10u",
+      "nets": [
+        "GND",
+        "5v"
+      ],
+      "pin_count": 2
+    },
+    "C18": {
+      "type": "capacitor",
+      "farads": 0.1,
+      "raw_value": "0.1",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "U14": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "/f4/IO/OE4",
+        "5v",
+        "Net-(R21-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "R33": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "GND",
+        "Net-(D6-K)"
+      ],
+      "pin_count": 2
+    },
+    "U20": {
+      "type": "opamp_dual",
+      "raw_value": "LM358",
+      "model": "LM358",
+      "nets": [
+        "GND",
+        "12v",
+        "daq1",
+        "daq2",
+        "Net-(J9-Pin_1)",
+        "Net-(U20A--)",
+        "Net-(U20B--)",
+        "Net-(J9-Pin_2)"
+      ],
+      "pin_count": 8
+    },
+    "J8": {
+      "type": "connector",
+      "raw_value": "Conn_01x04_Pin",
+      "nets": [
+        "GND",
+        "3v3-LDO2",
+        "SWDIO",
+        "SWCLK"
+      ],
+      "pin_count": 4
+    },
+    "C24": {
+      "type": "capacitor",
+      "farads": 2.1999999999999998e-11,
+      "raw_value": "22p",
+      "nets": [
+        "GND",
+        "PH1"
+      ],
+      "pin_count": 2
+    },
+    "SW3": {
+      "type": "switch",
+      "raw_value": "SW_Push",
+      "nets": [
+        "GND",
+        "Net-(U4-GPIO0)"
+      ],
+      "pin_count": 2
+    },
+    "U27": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "3v3-LDO1",
+        "E12",
+        "Net-(R29-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "U10": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "/f4/IO/OE0",
+        "5v",
+        "Net-(R17-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "U18": {
+      "type": "rs485_transceiver",
+      "raw_value": "MAX3485",
+      "model": "MAX3485",
+      "nets": [
+        "GND",
+        "3v3-LDO2",
+        "tx2",
+        "rx2",
+        "~{RE} DE",
+        "Net-(J10-Pin_1)",
+        "Net-(J5-Pin_2)"
+      ],
+      "pin_count": 7
+    },
+    "R41": {
+      "type": "resistor",
+      "ohms": 4700.0,
+      "raw_value": "4.7K",
+      "nets": [
+        "GND",
+        "B1"
+      ],
+      "pin_count": 2
+    },
+    "C20": {
+      "type": "capacitor",
+      "farads": 2.2e-06,
+      "raw_value": "2.2u",
+      "nets": [
+        "GND",
+        "Net-(U5-VCAP_2)"
+      ],
+      "pin_count": 2
+    },
+    "U12": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "/f4/IO/OE2",
+        "5v",
+        "Net-(R19-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "U31": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "3v3-LDO1",
+        "E8",
+        "Net-(R25-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "R36": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "GND",
+        "Net-(D9-K)"
+      ],
+      "pin_count": 2
+    },
+    "R55": {
+      "type": "resistor",
+      "ohms": 4700.0,
+      "raw_value": "4.7K",
+      "nets": [
+        "GND",
+        "C0"
+      ],
+      "pin_count": 2
+    },
+    "C21": {
+      "type": "capacitor",
+      "farads": 0.1,
+      "raw_value": "0.1",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "U6": {
+      "type": "optocoupler_hs",
+      "raw_value": "6N137",
+      "model": "6N137",
+      "nets": [
+        "GND",
+        "5v",
+        "D13",
+        "/f4/MOTORS/M2",
+        "unconnected-(U6-NC-Pad1)",
+        "Net-(U6-C)",
+        "unconnected-(U6-NC-Pad4)"
+      ],
+      "pin_count": 7
+    },
+    "R15": {
+      "type": "resistor",
+      "ohms": 220.0,
+      "raw_value": "220",
+      "nets": [
+        "GND",
+        "Net-(U8-C)"
+      ],
+      "pin_count": 2
+    },
+    "D1": {
+      "type": "dual_schottky",
+      "vf": 0.3,
+      "raw_value": "BAT54S",
+      "model": "BAT54S",
+      "nets": [
+        "GND",
+        "3v3-LDO2",
+        "5v_sense"
+      ],
+      "pin_count": 3
+    },
+    "R39": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "GND",
+        "~{RE} DE"
+      ],
+      "pin_count": 2
+    },
+    "R45": {
+      "type": "resistor",
+      "ohms": 4700.0,
+      "raw_value": "4.7K",
+      "nets": [
+        "GND",
+        "C5"
+      ],
+      "pin_count": 2
+    },
+    "U13": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "/f4/IO/OE3",
+        "5v",
+        "Net-(R20-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "U3": {
+      "type": "buck",
+      "vout": 5.0,
+      "raw_value": "XL1509-5.0",
+      "model": "XL1509",
+      "nets": [
+        "GND",
+        "12v",
+        "Net-(D2-K)"
+      ],
+      "pin_count": 3
+    },
+    "U2": {
+      "type": "ldo",
+      "vout": 3.3,
+      "raw_value": "AMS1117-3.3",
+      "model": "AMS1117",
+      "nets": [
+        "GND",
+        "5v",
+        "3v3-LDO2"
+      ],
+      "pin_count": 3
+    },
+    "C6": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "3v3-LDO1"
+      ],
+      "pin_count": 2
+    },
+    "U17": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "/f4/IO/OE7",
+        "5v",
+        "Net-(R24-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "U33": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "3v3-LDO1",
+        "E10",
+        "Net-(R27-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "C1": {
+      "type": "capacitor",
+      "farads": 9.999999999999999e-06,
+      "raw_value": "10u",
+      "nets": [
+        "GND",
+        "5v"
+      ],
+      "pin_count": 2
+    },
+    "U11": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "/f4/IO/OE1",
+        "5v",
+        "Net-(R18-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "U30": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "3v3-LDO1",
+        "E15",
+        "Net-(R32-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "R37": {
+      "type": "resistor",
+      "ohms": 5100.0,
+      "raw_value": "5.1k",
+      "nets": [
+        "GND",
+        "Net-(J4-CC2)"
+      ],
+      "pin_count": 2
+    },
+    "C15": {
+      "type": "capacitor",
+      "farads": 0.1,
+      "raw_value": "0.1",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "R16": {
+      "type": "resistor",
+      "ohms": 220.0,
+      "raw_value": "220",
+      "nets": [
+        "GND",
+        "Net-(U9-C)"
+      ],
+      "pin_count": 2
+    },
+    "R14": {
+      "type": "resistor",
+      "ohms": 220.0,
+      "raw_value": "220",
+      "nets": [
+        "GND",
+        "Net-(U6-C)"
+      ],
+      "pin_count": 2
+    },
+    "R4": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "GND",
+        "Net-(U4-GPIO15)"
+      ],
+      "pin_count": 2
+    },
+    "R34": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "GND",
+        "Net-(D7-K)"
+      ],
+      "pin_count": 2
+    },
+    "C7": {
+      "type": "capacitor",
+      "farads": 2.2e-05,
+      "raw_value": "22u",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "R47": {
+      "type": "resistor",
+      "ohms": 4700.0,
+      "raw_value": "4.7K",
+      "nets": [
+        "GND",
+        "C4"
+      ],
+      "pin_count": 2
+    },
+    "R61": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "GND",
+        "Net-(U20A--)"
+      ],
+      "pin_count": 2
+    },
+    "C12": {
+      "type": "capacitor",
+      "farads": 0.1,
+      "raw_value": "0.1",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "C19": {
+      "type": "capacitor",
+      "farads": 2.2e-06,
+      "raw_value": "2.2u",
+      "nets": [
+        "GND",
+        "Net-(U5-VCAP_1)"
+      ],
+      "pin_count": 2
+    },
+    "U1": {
+      "type": "ldo",
+      "vout": 3.3,
+      "raw_value": "AMS1117-3.3",
+      "model": "AMS1117",
+      "nets": [
+        "GND",
+        "3v3-LDO1",
+        "5v"
+      ],
+      "pin_count": 3
+    },
+    "C5": {
+      "type": "capacitor",
+      "farads": 2.2e-05,
+      "raw_value": "22u",
+      "nets": [
+        "GND",
+        "3v3-LDO1"
+      ],
+      "pin_count": 2
+    },
+    "D2": {
+      "type": "schottky",
+      "vf": 0.5,
+      "raw_value": "1N5820",
+      "model": "1N5820",
+      "nets": [
+        "GND",
+        "Net-(D2-K)"
+      ],
+      "pin_count": 2
+    },
+    "C11": {
+      "type": "capacitor",
+      "farads": 0.00017999999999999998,
+      "raw_value": "180u",
+      "nets": [
+        "GND",
+        "5v"
+      ],
+      "pin_count": 2
+    },
+    "U15": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "/f4/IO/OE5",
+        "5v",
+        "Net-(R22-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "R10": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "GND",
+        "Net-(D3-K)"
+      ],
+      "pin_count": 2
+    },
+    "C8": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "R38": {
+      "type": "resistor",
+      "ohms": 5100.0,
+      "raw_value": "5.1k",
+      "nets": [
+        "GND",
+        "Net-(J4-CC1)"
+      ],
+      "pin_count": 2
+    },
+    "C3": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "5v"
+      ],
+      "pin_count": 2
+    },
+    "R43": {
+      "type": "resistor",
+      "ohms": 4700.0,
+      "raw_value": "4.7K",
+      "nets": [
+        "GND",
+        "B0"
+      ],
+      "pin_count": 2
+    },
+    "R7": {
+      "type": "resistor",
+      "ohms": 10000000.0,
+      "raw_value": "10M",
+      "nets": [
+        "GND"
+      ],
+      "pin_count": 1
+    },
+    "R8": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "GND",
+        "5v_sense"
+      ],
+      "pin_count": 2
+    },
+    "R49": {
+      "type": "resistor",
+      "ohms": 4700.0,
+      "raw_value": "4.7K",
+      "nets": [
+        "GND",
+        "C3"
+      ],
+      "pin_count": 2
+    },
+    "U4": {
+      "type": "wifi_module",
+      "raw_value": "ESP-12F",
+      "i_typ_a": 0.08,
+      "model": "ESP-12F",
+      "nets": [
+        "GND",
+        "tx",
+        "rx",
+        "3v3-LDO1",
+        "Net-(U4-~{RST})",
+        "Net-(U4-GPIO0)",
+        "Net-(D4-K)",
+        "Net-(U4-GPIO15)",
+        "Net-(U4-EN)",
+        "unconnected-(U4-ADC-Pad2)",
+        "unconnected-(U4-GPIO16-Pad4)",
+        "unconnected-(U4-GPIO14-Pad5)",
+        "unconnected-(U4-GPIO12-Pad6)",
+        "unconnected-(U4-GPIO13-Pad7)",
+        "unconnected-(U4-CS0-Pad9)",
+        "unconnected-(U4-MISO-Pad10)",
+        "unconnected-(U4-GPIO9-Pad11)",
+        "unconnected-(U4-GPIO10-Pad12)",
+        "unconnected-(U4-MOSI-Pad13)",
+        "unconnected-(U4-SCLK-Pad14)",
+        "unconnected-(U4-GPIO4-Pad19)",
+        "unconnected-(U4-GPIO5-Pad20)"
+      ],
+      "pin_count": 22
+    },
+    "U26": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "3v3-LDO1",
+        "E11",
+        "Net-(R28-Pad1)"
+      ],
+      "pin_count": 4
+    },
+    "SW1": {
+      "type": "switch",
+      "raw_value": "SW_Push",
+      "nets": [
+        "GND",
+        "nrst"
+      ],
+      "pin_count": 2
+    },
+    "R53": {
+      "type": "resistor",
+      "ohms": 4700.0,
+      "raw_value": "4.7K",
+      "nets": [
+        "GND",
+        "C1"
+      ],
+      "pin_count": 2
+    },
+    "C17": {
+      "type": "capacitor",
+      "farads": 0.1,
+      "raw_value": "0.1",
+      "nets": [
+        "GND",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "R35": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "GND",
+        "Net-(D8-K)"
+      ],
+      "pin_count": 2
+    },
+    "U19": {
+      "type": "spi_flash",
+      "raw_value": "W25Q128JVS",
+      "model": "W25Q128JVS",
+      "nets": [
+        "GND",
+        "3v3-LDO2",
+        "w_cs",
+        "w_clk",
+        "w_miso",
+        "w_mosi",
+        "Net-(U19-~{WP}{slash}IO_{2})",
+        "Net-(U19-~{HOLD}{slash}~{RESET}{slash}IO_{3})"
+      ],
+      "pin_count": 8
+    },
+    "U9": {
+      "type": "optocoupler_hs",
+      "raw_value": "6N137",
+      "model": "6N137",
+      "nets": [
+        "GND",
+        "5v",
+        "D15",
+        "/f4/MOTORS/M4",
+        "Net-(U9-C)",
+        "unconnected-(U9-NC-Pad1)",
+        "unconnected-(U9-NC-Pad4)"
+      ],
+      "pin_count": 7
+    },
+    "J1": {
+      "type": "connector",
+      "raw_value": "Screw_Terminal_01x02",
+      "nets": [
+        "GND",
+        "12v"
+      ],
+      "pin_count": 2
+    },
+    "U28": {
+      "type": "optocoupler",
+      "raw_value": "PC817",
+      "model": "PC817",
+      "nets": [
+        "GND",
+        "3v3-LDO1",
+        "Net-(R30-Pad1)",
+        "E13"
+      ],
+      "pin_count": 4
+    },
+    "C4": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "5v"
+      ],
+      "pin_count": 2
+    },
+    "R13": {
+      "type": "resistor",
+      "ohms": 220.0,
+      "raw_value": "220",
+      "nets": [
+        "GND",
+        "Net-(U7-C)"
+      ],
+      "pin_count": 2
+    },
+    "R62": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "GND",
+        "Net-(U20B--)"
+      ],
+      "pin_count": 2
+    },
+    "U7": {
+      "type": "optocoupler_hs",
+      "raw_value": "6N137",
+      "model": "6N137",
+      "nets": [
+        "GND",
+        "5v",
+        "D12",
+        "/f4/MOTORS/M1",
+        "Net-(U7-C)",
+        "unconnected-(U7-NC-Pad1)",
+        "unconnected-(U7-NC-Pad4)"
+      ],
+      "pin_count": 7
+    },
+    "R11": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "3v3-LDO1",
+        "Net-(D4-A)"
+      ],
+      "pin_count": 2
+    },
+    "R2": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "3v3-LDO1",
+        "Net-(U4-~{RST})"
+      ],
+      "pin_count": 2
+    },
+    "R3": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "3v3-LDO1",
+        "Net-(U4-GPIO0)"
+      ],
+      "pin_count": 2
+    },
+    "R1": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "3v3-LDO1",
+        "Net-(U4-EN)"
+      ],
+      "pin_count": 2
+    },
+    "J6": {
+      "type": "connector",
+      "raw_value": "Screw_Terminal_01x06",
+      "nets": [
+        "cs",
+        "sck",
+        "miso",
+        "mosi",
+        "sda",
+        "scl"
+      ],
+      "pin_count": 6
+    },
+    "J3": {
+      "type": "connector",
+      "raw_value": "Screw_Terminal_01x16",
+      "nets": [
+        "/f4/IO/OE0",
+        "/f4/IO/OE1",
+        "/f4/IO/OE2",
+        "/f4/IO/OE3",
+        "/f4/IO/OE4",
+        "/f4/IO/OE5",
+        "/f4/IO/OE6",
+        "/f4/IO/OE7",
+        "/f4/IO/IE8",
+        "/f4/IO/IE9",
+        "/f4/IO/IE10",
+        "/f4/IO/IE11",
+        "/f4/IO/IE12",
+        "/f4/IO/IE13",
+        "/f4/IO/IE14",
+        "/f4/IO/IE15"
+      ],
+      "pin_count": 16
+    },
+    "R25": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "/f4/IO/IE8",
+        "Net-(R25-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R26": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "/f4/IO/IE9",
+        "Net-(R26-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R27": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "/f4/IO/IE10",
+        "Net-(R27-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R28": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "/f4/IO/IE11",
+        "Net-(R28-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R29": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "/f4/IO/IE12",
+        "Net-(R29-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R30": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "/f4/IO/IE13",
+        "Net-(R30-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R31": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "/f4/IO/IE14",
+        "Net-(R31-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R32": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "/f4/IO/IE15",
+        "Net-(R32-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R52": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10K",
+      "nets": [
+        "/f4/A_IN/A_IN2",
+        "C1"
+      ],
+      "pin_count": 2
+    },
+    "J7": {
+      "type": "connector",
+      "raw_value": "Screw_Terminal_01x08",
+      "nets": [
+        "/f4/A_IN/A_IN2",
+        "/f4/A_IN/A_IN1",
+        "/f4/A_IN/A_IN4",
+        "/f4/A_IN/A_IN3",
+        "/f4/A_IN/A_IN8",
+        "/f4/A_IN/A_IN6",
+        "/f4/A_IN/A_IN5",
+        "/f4/A_IN/A_IN7"
+      ],
+      "pin_count": 8
+    },
+    "R50": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10K",
+      "nets": [
+        "C2",
+        "/f4/A_IN/A_IN3"
+      ],
+      "pin_count": 2
+    },
+    "J2": {
+      "type": "connector",
+      "raw_value": "Screw_Terminal_01x04",
+      "nets": [
+        "/f4/MOTORS/M3",
+        "/f4/MOTORS/M1",
+        "/f4/MOTORS/M2",
+        "/f4/MOTORS/M4"
+      ],
+      "pin_count": 4
+    },
+    "D10": {
+      "type": "schottky",
+      "vf": 0.5,
+      "raw_value": "SS14",
+      "model": "SS14",
+      "nets": [
+        "5v",
+        "Net-(D10-A)"
+      ],
+      "pin_count": 2
+    },
+    "R9": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "5v",
+        "5v_sense"
+      ],
+      "pin_count": 2
+    },
+    "L1": {
+      "type": "inductor",
+      "henries": 6.8e-05,
+      "raw_value": "68u",
+      "nets": [
+        "5v",
+        "Net-(D2-K)"
+      ],
+      "pin_count": 2
+    },
+    "D4": {
+      "type": "led",
+      "vf_nom": 2.0,
+      "raw_value": "LED",
+      "model": "generic_led",
+      "nets": [
+        "Net-(D4-A)",
+        "Net-(D4-K)"
+      ],
+      "pin_count": 2
+    },
+    "SW2": {
+      "type": "switch",
+      "raw_value": "SW_Push",
+      "nets": [
+        "boot0",
+        "3v3-LDO2"
+      ],
+      "pin_count": 2
+    },
+    "R20": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "Net-(R20-Pad1)",
+        "E3"
+      ],
+      "pin_count": 2
+    },
+    "FB1": {
+      "type": "ferrite_bead",
+      "raw_value": "FerriteBead",
+      "r_dc": 0.05,
+      "nets": [
+        "3v3-LDO2",
+        "Net-(U5-VDDA)"
+      ],
+      "pin_count": 2
+    },
+    "R57": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "3v3-LDO2",
+        "Net-(U19-~{WP}{slash}IO_{2})"
+      ],
+      "pin_count": 2
+    },
+    "D3": {
+      "type": "led",
+      "vf_nom": 2.0,
+      "raw_value": "LED",
+      "model": "generic_led",
+      "nets": [
+        "3v3-LDO2",
+        "Net-(D3-K)"
+      ],
+      "pin_count": 2
+    },
+    "R5": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "3v3-LDO2",
+        "nrst"
+      ],
+      "pin_count": 2
+    },
+    "R56": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "3v3-LDO2",
+        "w_cs"
+      ],
+      "pin_count": 2
+    },
+    "R58": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "3v3-LDO2",
+        "Net-(U19-~{HOLD}{slash}~{RESET}{slash}IO_{3})"
+      ],
+      "pin_count": 2
+    },
+    "Y1": {
+      "type": "crystal",
+      "raw_value": "Crystal",
+      "nets": [
+        "PHO",
+        "PH1"
+      ],
+      "pin_count": 2
+    },
+    "R23": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "Net-(R23-Pad1)",
+        "E6"
+      ],
+      "pin_count": 2
+    },
+    "D5": {
+      "type": "led",
+      "vf_nom": 2.0,
+      "raw_value": "LED",
+      "model": "generic_led",
+      "nets": [
+        "Net-(D5-K)",
+        "usb_led"
+      ],
+      "pin_count": 2
+    },
+    "R19": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "E2",
+        "Net-(R19-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R21": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "E4",
+        "Net-(R21-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R22": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "E5",
+        "Net-(R22-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R54": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10K",
+      "nets": [
+        "C0",
+        "/f4/A_IN/A_IN1"
+      ],
+      "pin_count": 2
+    },
+    "R48": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10K",
+      "nets": [
+        "C3",
+        "/f4/A_IN/A_IN4"
+      ],
+      "pin_count": 2
+    },
+    "R46": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10K",
+      "nets": [
+        "C4",
+        "/f4/A_IN/A_IN5"
+      ],
+      "pin_count": 2
+    },
+    "R44": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10K",
+      "nets": [
+        "C5",
+        "/f4/A_IN/A_IN6"
+      ],
+      "pin_count": 2
+    },
+    "R42": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10K",
+      "nets": [
+        "B0",
+        "/f4/A_IN/A_IN7"
+      ],
+      "pin_count": 2
+    },
+    "R40": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10K",
+      "nets": [
+        "B1",
+        "/f4/A_IN/A_IN8"
+      ],
+      "pin_count": 2
+    },
+    "R24": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "E7",
+        "Net-(R24-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "D6": {
+      "type": "led",
+      "vf_nom": 2.0,
+      "raw_value": "LED",
+      "model": "generic_led",
+      "nets": [
+        "D0",
+        "Net-(D6-K)"
+      ],
+      "pin_count": 2
+    },
+    "D7": {
+      "type": "led",
+      "vf_nom": 2.0,
+      "raw_value": "LED",
+      "model": "generic_led",
+      "nets": [
+        "D1",
+        "Net-(D7-K)"
+      ],
+      "pin_count": 2
+    },
+    "D8": {
+      "type": "led",
+      "vf_nom": 2.0,
+      "raw_value": "LED",
+      "model": "generic_led",
+      "nets": [
+        "D2",
+        "Net-(D8-K)"
+      ],
+      "pin_count": 2
+    },
+    "D9": {
+      "type": "led",
+      "vf_nom": 2.0,
+      "raw_value": "LED",
+      "model": "generic_led",
+      "nets": [
+        "D3",
+        "Net-(D9-K)"
+      ],
+      "pin_count": 2
+    },
+    "R17": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "E0",
+        "Net-(R17-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R18": {
+      "type": "resistor",
+      "ohms": 330.0,
+      "raw_value": "330",
+      "nets": [
+        "E1",
+        "Net-(R18-Pad1)"
+      ],
+      "pin_count": 2
+    },
+    "R59": {
+      "type": "resistor",
+      "ohms": 20000.0,
+      "raw_value": "20k",
+      "nets": [
+        "Net-(J9-Pin_1)",
+        "Net-(U20A--)"
+      ],
+      "pin_count": 2
+    },
+    "J9": {
+      "type": "connector",
+      "raw_value": "Screw_Terminal_01x02",
+      "nets": [
+        "Net-(J9-Pin_1)",
+        "Net-(J9-Pin_2)"
+      ],
+      "pin_count": 2
+    },
+    "R60": {
+      "type": "resistor",
+      "ohms": 20000.0,
+      "raw_value": "20k",
+      "nets": [
+        "Net-(U20B--)",
+        "Net-(J9-Pin_2)"
+      ],
+      "pin_count": 2
+    },
+    "J10": {
+      "type": "connector",
+      "raw_value": "Conn_01x02_Pin",
+      "nets": [
+        "Net-(J10-Pin_1)",
+        "Net-(J10-Pin_2)"
+      ],
+      "pin_count": 2
+    },
+    "J5": {
+      "type": "connector",
+      "raw_value": "Screw_Terminal_01x02",
+      "nets": [
+        "Net-(J10-Pin_1)",
+        "Net-(J5-Pin_2)"
+      ],
+      "pin_count": 2
+    },
+    "R63": {
+      "type": "resistor",
+      "ohms": 120.0,
+      "raw_value": "120",
+      "nets": [
+        "Net-(J5-Pin_2)",
+        "Net-(J10-Pin_2)"
+      ],
+      "pin_count": 2
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "sources": [
+    {
+      "spice_name": "eu20_a",
+      "kicad_net": "Net-(J9-Pin_1)",
+      "kind": "opamp_output"
+    },
+    {
+      "spice_name": "eu20_b",
+      "kicad_net": "Net-(J9-Pin_2)",
+      "kind": "opamp_output"
+    },
+    {
+      "spice_name": "v_rail_n12v",
+      "kicad_net": "12v",
+      "kind": "power_rail"
+    },
+    {
+      "spice_name": "v_rail_n5v",
+      "kicad_net": "5v",
+      "kind": "power_rail"
+    },
+    {
+      "spice_name": "v_rail_n3v3_ldo1",
+      "kicad_net": "3v3-LDO1",
+      "kind": "power_rail"
+    },
+    {
+      "spice_name": "v_rail_n3v3_ldo2",
+      "kicad_net": "3v3-LDO2",
+      "kind": "power_rail"
+    },
+    {
+      "spice_name": "v_daq1",
+      "kicad_net": "daq1",
+      "kind": "dac"
+    },
+    {
+      "spice_name": "v_daq2",
+      "kicad_net": "daq2",
+      "kind": "dac"
+    },
+    {
+      "spice_name": "v_d7_drv",
+      "kicad_net": "D1",
+      "kind": "led_drive"
+    },
+    {
+      "spice_name": "v_d9_drv",
+      "kicad_net": "D3",
+      "kind": "led_drive"
+    },
+    {
+      "spice_name": "v_d6_drv",
+      "kicad_net": "D0",
+      "kind": "led_drive"
+    },
+    {
+      "spice_name": "v_d5_drv",
+      "kicad_net": "usb_led",
+      "kind": "led_drive"
+    },
+    {
+      "spice_name": "v_d8_drv",
+      "kicad_net": "D2",
+      "kind": "led_drive"
+    },
+    {
+      "spice_name": "v_e0_drv",
+      "kicad_net": "E0",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_e1_drv",
+      "kicad_net": "E1",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_e2_drv",
+      "kicad_net": "E2",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_e3_drv",
+      "kicad_net": "E3",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_e4_drv",
+      "kicad_net": "E4",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_e5_drv",
+      "kicad_net": "E5",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_e6_drv",
+      "kicad_net": "E6",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_e7_drv",
+      "kicad_net": "E7",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_d12_drv",
+      "kicad_net": "D12",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_d13_drv",
+      "kicad_net": "D13",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_d14_drv",
+      "kicad_net": "D14",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_d15_drv",
+      "kicad_net": "D15",
+      "kind": "digital_output"
+    },
+    {
+      "spice_name": "v_ie8_drv",
+      "kicad_net": "/f4/IO/IE8",
+      "kind": "digital_input"
+    },
+    {
+      "spice_name": "v_ie9_drv",
+      "kicad_net": "/f4/IO/IE9",
+      "kind": "digital_input"
+    },
+    {
+      "spice_name": "v_ie10_drv",
+      "kicad_net": "/f4/IO/IE10",
+      "kind": "digital_input"
+    },
+    {
+      "spice_name": "v_ie11_drv",
+      "kicad_net": "/f4/IO/IE11",
+      "kind": "digital_input"
+    },
+    {
+      "spice_name": "v_ie12_drv",
+      "kicad_net": "/f4/IO/IE12",
+      "kind": "digital_input"
+    },
+    {
+      "spice_name": "v_ie13_drv",
+      "kicad_net": "/f4/IO/IE13",
+      "kind": "digital_input"
+    },
+    {
+      "spice_name": "v_ie14_drv",
+      "kicad_net": "/f4/IO/IE14",
+      "kind": "digital_input"
+    },
+    {
+      "spice_name": "v_ie15_drv",
+      "kicad_net": "/f4/IO/IE15",
+      "kind": "digital_input"
+    },
+    {
+      "spice_name": "v_in1",
+      "kicad_net": "/f4/A_IN/A_IN1",
+      "kind": "analog_input"
+    },
+    {
+      "spice_name": "v_in2",
+      "kicad_net": "/f4/A_IN/A_IN2",
+      "kind": "analog_input"
+    },
+    {
+      "spice_name": "v_in3",
+      "kicad_net": "/f4/A_IN/A_IN3",
+      "kind": "analog_input"
+    },
+    {
+      "spice_name": "v_in4",
+      "kicad_net": "/f4/A_IN/A_IN4",
+      "kind": "analog_input"
+    },
+    {
+      "spice_name": "v_in5",
+      "kicad_net": "/f4/A_IN/A_IN5",
+      "kind": "analog_input"
+    },
+    {
+      "spice_name": "v_in6",
+      "kicad_net": "/f4/A_IN/A_IN6",
+      "kind": "analog_input"
+    },
+    {
+      "spice_name": "v_in7",
+      "kicad_net": "/f4/A_IN/A_IN7",
+      "kind": "analog_input"
+    },
+    {
+      "spice_name": "v_in8",
+      "kicad_net": "/f4/A_IN/A_IN8",
+      "kind": "analog_input"
+    }
+  ]
+}

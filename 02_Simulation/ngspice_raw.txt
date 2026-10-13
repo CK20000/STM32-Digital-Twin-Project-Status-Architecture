@@ -1,0 +1,1883 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: * ====================================================
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+	Node                                  Voltage
+	----                                  -------
+	----	-------
+	w_mosi                           0.000000e+00
+	w_miso                           0.000000e+00
+	w_clk                            0.000000e+00
+	unconnected__u9_nc_pad4_         0.000000e+00
+	unconnected__u9_nc_pad1_         0.000000e+00
+	unconnected__u8_nc_pad4_         0.000000e+00
+	unconnected__u8_nc_pad1_         0.000000e+00
+	unconnected__u7_nc_pad4_         0.000000e+00
+	unconnected__u7_nc_pad1_         0.000000e+00
+	unconnected__u6_nc_pad4_         0.000000e+00
+	unconnected__u6_nc_pad1_         0.000000e+00
+	unconnected__u5_pd9_pad56_       0.000000e+00
+	unconnected__u5_pd8_pad55_       0.000000e+00
+	unconnected__u5_pd6_pad87_       0.000000e+00
+	unconnected__u5_pd5_pad86_       0.000000e+00
+	unconnected__u5_pd4_pad85_       0.000000e+00
+	unconnected__u5_pd10_pad57_      0.000000e+00
+	unconnected__u5_pc9_pad66_       0.000000e+00
+	unconnected__u5_pc8_pad65_       0.000000e+00
+	unconnected__u5_pc7_pad64_       0.000000e+00
+	unconnected__u5_pc6_pad63_       0.000000e+00
+	unconnected__u5_pc15_pad9_       0.000000e+00
+	unconnected__u5_pc14_pad8_       0.000000e+00
+	unconnected__u5_pc13_pad7_       0.000000e+00
+	unconnected__u5_pc12_pad80_      0.000000e+00
+	unconnected__u5_pc11_pad79_      0.000000e+00
+	unconnected__u5_pc10_pad78_      0.000000e+00
+	unconnected__u5_pb9_pad96_       0.000000e+00
+	unconnected__u5_pb8_pad95_       0.000000e+00
+	unconnected__u5_pb2_pad37_       0.000000e+00
+	unconnected__u5_pa8_pad67_       0.000000e+00
+	unconnected__u5_pa7_pad32_       0.000000e+00
+	unconnected__u5_pa6_pad31_       0.000000e+00
+	unconnected__u5_pa15_pad77_      0.000000e+00
+	unconnected__u5_pa10_pad69_      0.000000e+00
+	unconnected__u5_pa1_pad24_       0.000000e+00
+	unconnected__u4_sclk_pad14_      0.000000e+00
+	unconnected__u4_mosi_pad13_      0.000000e+00
+	unconnected__u4_miso_pad10_      0.000000e+00
+	unconnected__u4_gpio9_pad11_     0.000000e+00
+	unconnected__u4_gpio5_pad20_     0.000000e+00
+	unconnected__u4_gpio4_pad19_     0.000000e+00
+	unconnected__u4_gpio16_pad4_     0.000000e+00
+	unconnected__u4_gpio14_pad5_     0.000000e+00
+	unconnected__u4_gpio13_pad7_     0.000000e+00
+	unconnected__u4_gpio12_pad6_     0.000000e+00
+	unconnected__u4_gpio10_pad12_    0.000000e+00
+	unconnected__u4_cs0_pad9_        0.000000e+00
+	unconnected__u4_adc_pad2_        0.000000e+00
+	unconnected__j4_sbu2_padb8_      0.000000e+00
+	unconnected__j4_sbu1_pada8_      0.000000e+00
+	tx2                              0.000000e+00
+	tx                               0.000000e+00
+	sda                              0.000000e+00
+	scl                              0.000000e+00
+	sck                              0.000000e+00
+	rx2                              0.000000e+00
+	rx                               0.000000e+00
+	mosi                             0.000000e+00
+	miso                             0.000000e+00
+	cs                               0.000000e+00
+	usb_d_                           0.000000e+00
+	swdio                            0.000000e+00
+	swclk                            0.000000e+00
+	net__j10_pin_1_                  0.000000e+00
+	net__d2_k_                       0.000000e+00
+	v_in8_src                        5.000000e+00
+	v_in7_src                        5.000000e+00
+	v_in6_src                        5.000000e+00
+	v_in5_src                        5.000000e+00
+	v_in4_src                        5.000000e+00
+	v_in3_src                        5.000000e+00
+	v_in2_src                        5.000000e+00
+	v_in1_src                        5.000000e+00
+	n3v3_ldo2                        8.955583e-01
+	n3v3_ldo2_sense                  3.300000e+00
+	n3v3_ldo2_src                    3.300000e+00
+	n3v3_ldo1                        3.283994e+00
+	n3v3_ldo1_sense                  3.300000e+00
+	n3v3_ldo1_src                    3.300000e+00
+	n5v                              3.183194e+00
+	n5v_src                          5.000000e+00
+	n12v                             1.194057e+01
+	n12v_sense                       1.200000e+01
+	n12v_src                         1.200000e+01
+	net__j10_pin_2_                  0.000000e+00
+	net__j5_pin_2_                   0.000000e+00
+	e1                               0.000000e+00
+	e0                               0.000000e+00
+	d3                               0.000000e+00
+	d2                               0.000000e+00
+	d1                               0.000000e+00
+	d0                               0.000000e+00
+	e7                               5.630048e-20
+	_f4_a_in_a_in8                   4.999997e+00
+	_f4_a_in_a_in7                   4.999997e+00
+	_f4_a_in_a_in6                   4.999997e+00
+	_f4_a_in_a_in5                   4.999997e+00
+	_f4_a_in_a_in4                   4.999997e+00
+	_f4_a_in_a_in1                   4.999997e+00
+	e5                               0.000000e+00
+	e4                               0.000000e+00
+	usb_led                          0.000000e+00
+	e6                               0.000000e+00
+	net__u19___hold__slash___reset__slash_io__3__   0.000000e+00
+	w_cs                             0.000000e+00
+	nrst                             0.000000e+00
+	net__u19___wp__slash_io__2__     0.000000e+00
+	net__u5_vdda_                    0.000000e+00
+	e3                               0.000000e+00
+	net__d4_k_                       2.284627e+00
+	net__d10_a_                      2.867196e-06
+	_f4_a_in_a_in3                   4.999997e+00
+	_f4_a_in_a_in2                   4.999997e+00
+	_f4_io_ie15                      5.630048e-20
+	_f4_io_ie14                      5.630005e-20
+	_f4_io_ie13                      5.629993e-20
+	_f4_io_ie12                      5.630012e-20
+	_f4_io_ie11                      5.630005e-20
+	_f4_io_ie10                      5.630048e-20
+	_f4_io_ie9                       5.630012e-20
+	_f4_io_ie8                       5.630048e-20
+	net__u4_en_                      3.249617e+00
+	net__u4_gpio0_                   3.249617e+00
+	net__u4___rst__                  3.249617e+00
+	net__d4_a_                       3.280277e+00
+	_f4_motors_m1                    0.000000e+00
+	d12                              0.000000e+00
+	net__u7_c_                      -6.85771e-109
+	e13                              1.641057e+00
+	net__r30_pad1_                   5.631851e-20
+	_f4_motors_m4                    0.000000e+00
+	d15                              0.000000e+00
+	net__d8_k_                       1.428963e-99
+	c1                               1.593543e+00
+	e11                              1.641057e+00
+	net__r28_pad1_                   5.631863e-20
+	c3                               1.593543e+00
+	n5v_sense                        5.000000e+00
+	b0                               1.593543e+00
+	net__j4_cc1_                     0.000000e+00
+	net__d3_k_                       1.428963e-99
+	_f4_io_oe5                       1.428599e+00
+	net__r22_pad1_                   -1.42896e-99
+	net__u5_vcap_1_                  0.000000e+00
+	c4                               1.593543e+00
+	net__d7_k_                       1.428963e-99
+	net__u4_gpio15_                  0.000000e+00
+	net__u9_c_                      -6.85771e-109
+	net__j4_cc2_                     0.000000e+00
+	e15                              1.641057e+00
+	net__r32_pad1_                   5.631906e-20
+	_f4_io_oe1                       1.428599e+00
+	net__r18_pad1_                   -1.42896e-99
+	e10                              1.641057e+00
+	net__r27_pad1_                   5.631906e-20
+	_f4_io_oe7                       1.428599e+00
+	net__r24_pad1_                   5.631906e-20
+	_f4_io_oe3                       1.428599e+00
+	net__r20_pad1_                   -1.42896e-99
+	c5                               1.593543e+00
+	__re__de                         0.000000e+00
+	_f4_motors_m2                    0.000000e+00
+	net__u6_c_                      -6.85771e-109
+	d13                              0.000000e+00
+	c0                               1.593543e+00
+	net__d9_k_                       1.428963e-99
+	e8                               1.641057e+00
+	net__r25_pad1_                   5.631906e-20
+	_f4_io_oe2                       1.428599e+00
+	net__r19_pad1_                   -1.42896e-99
+	net__u5_vcap_2_                  0.000000e+00
+	b1                               1.593543e+00
+	_f4_io_oe0                       1.428599e+00
+	net__r17_pad1_                   -1.42896e-99
+	e12                              1.641057e+00
+	net__r29_pad1_                   5.631869e-20
+	ph1                              0.000000e+00
+	net__u20b___                     4.999849e-01
+	daq2                             5.000000e-01
+	net__j9_pin_2_                   1.509954e+00
+	net__u20a___                     4.999849e-01
+	daq1                             5.000000e-01
+	net__j9_pin_1_                   1.509954e+00
+	net__d6_k_                       1.428963e-99
+	_f4_io_oe4                       1.428599e+00
+	net__r21_pad1_                   -1.42896e-99
+	e14                              1.641057e+00
+	net__r31_pad1_                   5.631863e-20
+	e9                               1.641057e+00
+	n3v3_ldo1_trace                  3.282113e+00
+	net__r26_pad1_                   5.631869e-20
+	e2                               0.000000e+00
+	net__d5_k_                       1.428963e-99
+	_f4_io_oe6                       1.428599e+00
+	n5v_trace                        2.857198e+00
+	net__r23_pad1_                   -1.42896e-99
+	pho                              0.000000e+00
+	n3v3_ldo2_trace                  0.000000e+00
+	boot0                            0.000000e+00
+	_f4_motors_m3                    0.000000e+00
+	net__u8_c_                      -6.85771e-109
+	d14                              0.000000e+00
+	c2                               1.593543e+00
+	n12v_trace                       1.191106e+01
+
+	Source	Current
+	------	-------
+
+	v_rail_n12v#branch               -5.94264e+00
+	v_sense_n12v#branch              5.942638e+00
+	v_rail_n5v#branch                -1.21128e+01
+	v_rail_n3v3_ldo1#branch          -8.00317e-02
+	v_rail_n3v3_ldo2#branch          -1.20222e+01
+	v_daq1#branch                    -5.00000e-07
+	v_daq2#branch                    -5.00000e-07
+	v_d8_drv#branch                 -4.33162e-102
+	v_d9_drv#branch                 -4.33162e-102
+	v_d5_drv#branch                 -4.33162e-102
+	v_d6_drv#branch                 -4.33162e-102
+	v_d7_drv#branch                 -4.33162e-102
+	v_e0_drv#branch                 -4.33019e-102
+	v_e1_drv#branch                 -4.33019e-102
+	v_e2_drv#branch                  -5.00000e-02
+	v_e3_drv#branch                 -4.33019e-102
+	v_e4_drv#branch                 -4.33019e-102
+	v_e5_drv#branch                 -4.33019e-102
+	v_e6_drv#branch                 -4.33019e-102
+	v_e7_drv#branch                  1.202221e+01
+	v_d12_drv#branch                3.117826e-111
+	v_d13_drv#branch                3.117827e-111
+	v_d14_drv#branch                3.117826e-111
+	v_d15_drv#branch                3.117826e-111
+	v_in1#branch                     -3.45645e-04
+	v_in2#branch                     -3.45645e-04
+	v_in3#branch                     -3.45645e-04
+	v_in4#branch                     -3.45645e-04
+	v_in5#branch                     -3.45645e-04
+	v_in6#branch                     -3.45645e-04
+	v_in7#branch                     -3.45645e-04
+	v_in8#branch                     -3.45645e-04
+	eu20_a#branch                    -5.20084e-05
+	eu20_b#branch                    -5.20084e-05
+	v_sense_n5v#branch               1.211276e+01
+	v_sense_n3v3_ldo1#branch         8.003172e-02
+	v_sense_n3v3_ldo2#branch         1.202221e+01
+
+ Capacitor models (Fixed capacitor)
+      model                     C
+
+        cap                     0
+         cj                     0
+       cjsw                     0
+       defw                 1e-05
+       defl                     0
+     narrow                     0
+      short                     0
+        del                     0
+        tc1                     0
+        tc2                     0
+         di                     0
+      thick                     0
+     bv_max                 1e+99
+
+ Diode models (Junction Diode model)
+      model              diodemod                ledmod
+
+      level                     1                     1
+         is                 1e-14                 1e-14
+        jsw                     0                     0
+         rs                   0.5                     5
+        rsw                     0                     0
+        trs                     0                     0
+       trs2                     0                     0
+          n                  1.05                     2
+         ns                     1                     1
+         tt                     0                     0
+       ttt1                     0                     0
+       ttt2                     0                     0
+        cjo                     0                     0
+         vj                     1                     1
+          m                   0.5                   0.5
+        tm1                     0                     0
+        tm2                     0                     0
+        cjp                     0                     0
+        php                     1                     1
+       mjsw                  0.33                  0.33
+        ikf                     0                     0
+        ikr                     0                     0
+        ikp                     0                     0
+        nbv                  1.05                     2
+       area                     1                     1
+         pj                     0                     0
+       tlev                     0                     0
+      tlevc                     0                     0
+         eg                  1.11                  1.11
+       gap1              0.000702              0.000702
+       gap2                  1108                  1108
+        xti                     3                     3
+        cta                     0                     0
+        ctp                     0                     0
+        tpb                     0                     0
+       tphp                     0                     0
+       jtun                     0                     0
+     jtunsw                     0                     0
+       ntun                    30                    30
+     xtitun                     3                     3
+        keg                     1                     1
+         kf                     0                     0
+         af                     1                     1
+         fc                   0.5                   0.5
+        fcs                   0.5                   0.5
+         bv                     0                     0
+        ibv                 0.001                 0.001
+        tcv                     0                     0
+        isr                 1e-14                 1e-14
+         nr                     2                     2
+         vp                     0                     0
+     fv_max                 1e+99                 1e+99
+     bv_max                 1e+99                 1e+99
+     id_max                 1e+99                 1e+99
+     te_max                 1e+99                 1e+99
+     pd_max                 1e+99                 1e+99
+       rth0                     0                     0
+       cth0                 1e-05                 1e-05
+         lm                     0                     0
+         lp                     0                     0
+         wm                     0                     0
+         wp                     0                     0
+        xom                 10000                 10000
+        xoi                 10000                 10000
+         xm                     0                     0
+         xp                     0                     0
+         xw                     0                     0
+
+ Resistor models (Simple linear resistor)
+      model                     R
+
+        rsh                     0
+     narrow                     0
+      short                     0
+        tc1                     0
+        tc2                     0
+        tce                     0
+       defw                 1e-05
+          l                 1e-05
+         kf                     0
+         af                     0
+          r                     0
+     bv_max                 1e+99
+         lf                     1
+         wf                     1
+         ef                     1
+
+ Capacitor: Fixed capacitor
+     device                   cc4                  cc17                   cc3
+      model                     C                     C                     C
+capacitance                 1e-07                   0.1                 1e-07
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                    -0                     0                    -0
+
+ Capacitor: Fixed capacitor
+     device                   cc8                  cc11                   cc5
+      model                     C                     C                     C
+capacitance                 1e-07               0.00018               2.2e-05
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                    -0                    -0
+
+ Capacitor: Fixed capacitor
+     device                  cc19                  cc12                   cc7
+      model                     C                     C                     C
+capacitance               2.2e-06                   0.1               2.2e-05
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Capacitor: Fixed capacitor
+     device                  cc15                   cc1                   cc6
+      model                     C                     C                     C
+capacitance                   0.1                 1e-05                 1e-07
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                    -0                    -0
+
+ Capacitor: Fixed capacitor
+     device                  cc21                  cc20                  cc24
+      model                     C                     C                     C
+capacitance                   0.1               2.2e-06               2.2e-11
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Capacitor: Fixed capacitor
+     device                  cc18                   cc2                  cc16
+      model                     C                     C                     C
+capacitance                   0.1                 1e-05                   0.1
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                    -0                     0
+
+ Capacitor: Fixed capacitor
+     device                  cc13                  cc22                  cc23
+      model                     C                     C                     C
+capacitance                   0.1                     1               2.2e-11
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Capacitor: Fixed capacitor
+     device                  cc14                  cc10                   cc9
+      model                     C                     C                     C
+capacitance                   0.1                 1e-06               0.00047
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                    -0                    -0
+
+ CCCS: Current controlled current source
+     device   f_n3v3_ldo2_reflect   f_n3v3_ldo1_reflect         f_n5v_reflect
+          m                     0                     0                     0
+          i               12.0222             0.0800317               5.93763
+          v                2.8572                2.8572               11.9111
+          p               34.3498              0.228667               70.7234
+
+ Diode: Junction Diode model
+     device                  dd10                   dd9                   dd8
+      model              diodemod                ledmod                ledmod
+    thermal                     0                     0                     0
+         vd               -2.8572          -1.45062e-99          -1.45062e-99
+         id           -2.8672e-12         -1.45062e-111         -1.45062e-111
+         gd                 1e-12           1.19331e-12           1.19331e-12
+         cd                     0                     0                     0
+
+ Diode: Junction Diode model
+     device                   dd7                   dd6                   dd5
+      model                ledmod                ledmod                ledmod
+    thermal                     0                     0                     0
+         vd          -1.45062e-99          -1.45062e-99          -1.45062e-99
+         id         -1.45062e-111         -1.45062e-111         -1.45062e-111
+         gd           1.19331e-12           1.19331e-12           1.19331e-12
+         cd                     0                     0                     0
+
+ Diode: Junction Diode model
+     device                   dd3                   dd4           d.xu7.d_led
+      model                ledmod                ledmod                ledmod
+    thermal                     0                     0                     0
+         vd          -1.45062e-99              0.995638           7.0136e-109
+         id         -1.45062e-111           2.28463e-06           7.0136e-121
+         gd           1.19331e-12           4.41646e-05           1.19331e-12
+         cd                     0                     0                     0
+
+ Diode: Junction Diode model
+     device          d.xu28.d_led           d.xu9.d_led          d.xu26.d_led
+      model                ledmod                ledmod                ledmod
+    thermal                     0                     0                     0
+         vd           5.63191e-20           7.0136e-109           5.63192e-20
+         id           5.63191e-32           7.0136e-121           5.63192e-32
+         gd           1.19331e-12           1.19331e-12           1.19331e-12
+         cd                     0                     0                     0
+
+ Diode: Junction Diode model
+     device          d.xu15.d_led          d.xu30.d_led          d.xu11.d_led
+      model                ledmod                ledmod                ledmod
+    thermal                     0                     0                     0
+         vd          -1.45062e-99           5.63196e-20          -1.45062e-99
+         id         -1.45062e-111           5.63196e-32         -1.45062e-111
+         gd           1.19331e-12           1.19331e-12           1.19331e-12
+         cd                     0                     0                     0
+
+ Diode: Junction Diode model
+     device          d.xu33.d_led          d.xu17.d_led          d.xu13.d_led
+      model                ledmod                ledmod                ledmod
+    thermal                     0                     0                     0
+         vd           5.63196e-20           5.63196e-20          -1.45062e-99
+         id           5.63196e-32           5.63196e-32         -1.45062e-111
+         gd           1.19331e-12           1.19331e-12           1.19331e-12
+         cd                     0                     0                     0
+
+ Diode: Junction Diode model
+     device           d.xu6.d_led          d.xu31.d_led          d.xu12.d_led
+      model                ledmod                ledmod                ledmod
+    thermal                     0                     0                     0
+         vd           7.0136e-109           5.63196e-20          -1.45062e-99
+         id           7.0136e-121           5.63196e-32         -1.45062e-111
+         gd           1.19331e-12           1.19331e-12           1.19331e-12
+         cd                     0                     0                     0
+
+ Diode: Junction Diode model
+     device          d.xu10.d_led          d.xu27.d_led          d.xu14.d_led
+      model                ledmod                ledmod                ledmod
+    thermal                     0                     0                     0
+         vd          -1.45062e-99           5.63193e-20          -1.45062e-99
+         id         -1.45062e-111           5.63193e-32         -1.45062e-111
+         gd           1.19331e-12           1.19331e-12           1.19331e-12
+         cd                     0                     0                     0
+
+ Diode: Junction Diode model
+     device          d.xu29.d_led          d.xu32.d_led          d.xu16.d_led
+      model                ledmod                ledmod                ledmod
+    thermal                     0                     0                     0
+         vd           5.63192e-20           5.63193e-20          -1.45062e-99
+         id           5.63192e-32           5.63193e-32         -1.45062e-111
+         gd           1.19331e-12           1.19331e-12           1.19331e-12
+         cd                     0                     0                     0
+
+ Diode: Junction Diode model
+     device           d.xu8.d_led
+      model                ledmod
+    thermal                     0
+         vd           7.0136e-109
+         id           7.0136e-121
+         gd           1.19331e-12
+         cd                     0
+
+ Isource: Independent current source
+     device        i_u2_quiescent        i_u1_quiescent        i_u3_quiescent
+         dc                 0.005                 0.005                 0.005
+          m                     1                     1                     1
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+          v               -2.8572               -2.8572              -11.9111
+          p              0.014286              0.014286             0.0595553
+    current                 0.005                 0.005                 0.005
+
+ Isource: Independent current source
+     device               iu4_vcc               iu5_vdd
+         dc                  0.08                  0.05
+          m                     1                     1
+      acmag                     0                     0
+      pulse                     -                     -
+        sin                     -                     -
+        exp                     -                     -
+        pwl                     -                     -
+       sffm                     -                     -
+         am                     -                     -
+    trnoise                     -                     -
+   trrandom                     -                     -
+          v              -3.28211                     0
+          p              0.262569                    -0
+    current                  0.08                  0.05
+
+ Resistor: Simple linear resistor
+     device     r_trace_n3v3_ldo2     r_trace_n3v3_ldo1           r_trace_n5v
+      model                     R                     R                     R
+ resistance              0.074492              0.023498              0.026915
+         ac              0.074492              0.023498              0.026915
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i               12.0222             0.0800317                12.112
+          p               10.7666           0.000150506               3.94847
+
+ Resistor: Simple linear resistor
+     device          r_trace_n12v            r_leak_187            r_leak_186
+      model                     R                     R                     R
+ resistance              0.004967                 1e+06                 1e+06
+         ac              0.004967                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i               5.94264                     0                     0
+          p              0.175409                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_185            r_leak_184            r_leak_183
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_182            r_leak_181            r_leak_180
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_179            r_leak_178            r_leak_177
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_176            r_leak_175            r_leak_174
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_173            r_leak_172            r_leak_171
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_170            r_leak_169            r_leak_168
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_167            r_leak_166            r_leak_165
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_164            r_leak_163            r_leak_162
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_161            r_leak_160            r_leak_159
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_158            r_leak_157            r_leak_156
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_155            r_leak_154            r_leak_153
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_152            r_leak_151            r_leak_150
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_149            r_leak_148            r_leak_147
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_146            r_leak_145            r_leak_144
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_143            r_leak_142            r_leak_141
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_140            r_leak_139            r_leak_138
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_137            r_leak_136            r_leak_135
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_134            r_leak_133            r_leak_132
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_131            r_leak_130            r_leak_129
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_128            r_leak_127            r_leak_126
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_125            r_leak_124            r_leak_123
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                 5e-07
+          p                     0                     0               2.5e-07
+
+ Resistor: Simple linear resistor
+     device            r_leak_122            r_leak_121            r_leak_120
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                 5e-07                     0                     0
+          p               2.5e-07                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_119            r_leak_118            r_leak_117
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_116            r_leak_115            r_leak_114
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_113            r_leak_112            r_leak_111
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i         -6.85771e-115         -6.85771e-115         -6.85771e-115
+          p          4.70282e-223          4.70282e-223          4.70282e-223
+
+ Resistor: Simple linear resistor
+     device            r_leak_110            r_leak_109            r_leak_108
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i         -6.85771e-115                     0                     0
+          p          4.70282e-223                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_107            r_leak_106            r_leak_105
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0           3.24962e-06                     0
+          p                     0             1.056e-05                     0
+
+ Resistor: Simple linear resistor
+     device            r_leak_104            r_leak_103            r_leak_102
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           3.24962e-06           3.24962e-06           4.99985e-07
+          p             1.056e-05             1.056e-05           2.49985e-07
+
+ Resistor: Simple linear resistor
+     device            r_leak_101            r_leak_100             r_leak_99
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           4.99985e-07                     0                     0
+          p           2.49985e-07                     0                     0
+
+ Resistor: Simple linear resistor
+     device             r_leak_98             r_leak_97             r_leak_96
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           5.63191e-26           5.63186e-26           5.63185e-26
+          p           3.17184e-45           3.17179e-45           3.17177e-45
+
+ Resistor: Simple linear resistor
+     device             r_leak_95             r_leak_94             r_leak_93
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           5.63187e-26           5.63186e-26           5.63191e-26
+          p            3.1718e-45           3.17179e-45           3.17184e-45
+
+ Resistor: Simple linear resistor
+     device             r_leak_92             r_leak_91             r_leak_90
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           5.63187e-26           5.63191e-26           5.63191e-26
+          p            3.1718e-45           3.17184e-45           3.17184e-45
+
+ Resistor: Simple linear resistor
+     device             r_leak_89             r_leak_88             r_leak_87
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i         -1.42896e-105         -1.42896e-105         -1.42896e-105
+          p          2.04193e-204          2.04193e-204          2.04193e-204
+
+ Resistor: Simple linear resistor
+     device             r_leak_86             r_leak_85             r_leak_84
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i         -1.42896e-105         -1.42896e-105         -1.42896e-105
+          p          2.04193e-204          2.04193e-204          2.04193e-204
+
+ Resistor: Simple linear resistor
+     device             r_leak_83             r_leak_82             r_leak_81
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i         -1.42896e-105           1.50995e-06           1.50995e-06
+          p          2.04193e-204           2.27996e-06           2.27996e-06
+
+ Resistor: Simple linear resistor
+     device             r_leak_80             r_leak_79             r_leak_78
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device             r_leak_77             r_leak_76             r_leak_75
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0          1.42896e-105
+          p                     0                     0          2.04193e-204
+
+ Resistor: Simple linear resistor
+     device             r_leak_74             r_leak_73             r_leak_72
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          1.42896e-105          1.42896e-105          1.42896e-105
+          p          2.04193e-204          2.04193e-204          2.04193e-204
+
+ Resistor: Simple linear resistor
+     device             r_leak_71             r_leak_70             r_leak_69
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          1.42896e-105           2.28463e-06           3.28028e-06
+          p          2.04193e-204           5.21952e-06           1.07602e-05
+
+ Resistor: Simple linear resistor
+     device             r_leak_68             r_leak_67             r_leak_66
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          1.42896e-105                     0            2.8672e-12
+          p          2.04193e-204                     0           8.22081e-18
+
+ Resistor: Simple linear resistor
+     device             r_leak_64             r_leak_63             r_leak_62
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.64106e-06           1.64106e-06           5.63005e-26
+          p           2.69307e-06           2.69307e-06           3.16974e-45
+
+ Resistor: Simple linear resistor
+     device             r_leak_61             r_leak_60             r_leak_59
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device             r_leak_58             r_leak_57             r_leak_56
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0           1.64106e-06
+          p                     0                     0           2.69307e-06
+
+ Resistor: Simple linear resistor
+     device             r_leak_55             r_leak_54             r_leak_53
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.64106e-06           1.64106e-06           1.64106e-06
+          p           2.69307e-06           2.69307e-06           2.69307e-06
+
+ Resistor: Simple linear resistor
+     device             r_leak_52             r_leak_51             r_leak_50
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.64106e-06           1.64106e-06                     0
+          p           2.69307e-06           2.69307e-06                     0
+
+ Resistor: Simple linear resistor
+     device             r_leak_49             r_leak_48             r_leak_47
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device             r_leak_46             r_leak_45             r_leak_44
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device             r_leak_43             r_leak_42             r_leak_41
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device             r_leak_40             r_leak_39             r_leak_38
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.59354e-06           1.59354e-06           1.59354e-06
+          p           2.53938e-06           2.53938e-06           2.53938e-06
+
+ Resistor: Simple linear resistor
+     device             r_leak_37             r_leak_36             r_leak_35
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.59354e-06           1.59354e-06           1.59354e-06
+          p           2.53938e-06           2.53938e-06           2.53938e-06
+
+ Resistor: Simple linear resistor
+     device             r_leak_34             r_leak_33             r_leak_32
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.59354e-06           1.59354e-06                 5e-06
+          p           2.53938e-06           2.53938e-06               2.5e-05
+
+ Resistor: Simple linear resistor
+     device             r_leak_31             r_leak_30             r_leak_29
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i            2.8572e-06                     0           3.28211e-06
+          p           8.16358e-06                     0           1.07723e-05
+
+ Resistor: Simple linear resistor
+     device             r_leak_28             r_leak_27             r_leak_26
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.19111e-05                     0                     0
+          p           0.000141873                     0                     0
+
+ Resistor: Simple linear resistor
+     device             r_leak_25             r_leak_24             r_leak_23
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0            1.4286e-06
+          p                     0                     0            2.0409e-06
+
+ Resistor: Simple linear resistor
+     device             r_leak_22             r_leak_21             r_leak_20
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i            1.4286e-06            1.4286e-06            1.4286e-06
+          p            2.0409e-06            2.0409e-06            2.0409e-06
+
+ Resistor: Simple linear resistor
+     device             r_leak_19             r_leak_18             r_leak_17
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i            1.4286e-06            1.4286e-06            1.4286e-06
+          p            2.0409e-06            2.0409e-06            2.0409e-06
+
+ Resistor: Simple linear resistor
+     device             r_leak_16             r_leak_15             r_leak_14
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i            1.4286e-06           5.63001e-26           5.63005e-26
+          p            2.0409e-06            3.1697e-45           3.16974e-45
+
+ Resistor: Simple linear resistor
+     device             r_leak_13             r_leak_12             r_leak_11
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           5.63005e-26           5.63001e-26           5.62999e-26
+          p           3.16974e-45            3.1697e-45           3.16968e-45
+
+ Resistor: Simple linear resistor
+     device             r_leak_10              r_leak_9              r_leak_8
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           5.63001e-26           5.63001e-26           5.63005e-26
+          p            3.1697e-45            3.1697e-45           3.16974e-45
+
+ Resistor: Simple linear resistor
+     device              r_leak_7              r_leak_6              r_leak_5
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                 5e-06                 5e-06                 5e-06
+          p               2.5e-05               2.5e-05               2.5e-05
+
+ Resistor: Simple linear resistor
+     device              r_leak_4              r_leak_3              r_leak_2
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                 5e-06                 5e-06                 5e-06
+          p               2.5e-05               2.5e-05               2.5e-05
+
+ Resistor: Simple linear resistor
+     device              r_leak_1              r_leak_0             r_in8_src
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                  0.01
+         ac                 1e+06                 1e+06                  0.01
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                 5e-06                 5e-06           0.000345645
+          p               2.5e-05               2.5e-05           1.19471e-09
+
+ Resistor: Simple linear resistor
+     device             r_in7_src             r_in6_src             r_in5_src
+      model                     R                     R                     R
+ resistance                  0.01                  0.01                  0.01
+         ac                  0.01                  0.01                  0.01
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           0.000345645           0.000345645           0.000345645
+          p           1.19471e-09           1.19471e-09           1.19471e-09
+
+ Resistor: Simple linear resistor
+     device             r_in4_src             r_in3_src             r_in2_src
+      model                     R                     R                     R
+ resistance                  0.01                  0.01                  0.01
+         ac                  0.01                  0.01                  0.01
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           0.000345645           0.000345645           0.000345645
+          p           1.19471e-09           1.19471e-09           1.19471e-09
+
+ Resistor: Simple linear resistor
+     device             r_in1_src      r_rail_n3v3_ldo2      r_rail_n3v3_ldo1
+      model                     R                     R                     R
+ resistance                  0.01                   0.2                   0.2
+         ac                  0.01                   0.2                   0.2
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           0.000345645               12.0222             0.0800317
+          p           1.19471e-09               28.9067            0.00128102
+
+ Resistor: Simple linear resistor
+     device            r_rail_n5v           r_rail_n12v                  rr63
+      model                     R                     R                     R
+ resistance                  0.15                  0.01                   120
+         ac                  0.15                  0.01                   120
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                12.112               5.94264                     0
+          p               22.0052              0.353149                     0
+
+ Resistor: Simple linear resistor
+     device                  rr60                  rr59                  rr18
+      model                     R                     R                     R
+ resistance                 20000                 20000                   330
+         ac                 20000                 20000                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -5.04985e-05           5.04985e-05          4.33019e-102
+          p           5.10019e-05           5.10019e-05          6.18768e-201
+
+ Resistor: Simple linear resistor
+     device                  rr17                  rr24                  rr40
+      model                     R                     R                     R
+ resistance                   330                   330                 10000
+         ac                   330                   330                 10000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          4.33019e-102          -5.63005e-26          -0.000340645
+          p          6.18768e-201           1.04602e-48            0.00116039
+
+ Resistor: Simple linear resistor
+     device                  rr42                  rr44                  rr46
+      model                     R                     R                     R
+ resistance                 10000                 10000                 10000
+         ac                 10000                 10000                 10000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -0.000340645          -0.000340645          -0.000340645
+          p            0.00116039            0.00116039            0.00116039
+
+ Resistor: Simple linear resistor
+     device                  rr48                  rr54                  rr22
+      model                     R                     R                     R
+ resistance                 10000                 10000                   330
+         ac                 10000                 10000                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -0.000340645          -0.000340645          4.33019e-102
+          p            0.00116039            0.00116039          6.18768e-201
+
+ Resistor: Simple linear resistor
+     device                  rr21                  rr19                  rr23
+      model                     R                     R                     R
+ resistance                   330                   330                   330
+         ac                   330                   330                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          4.33019e-102          4.33019e-102         -4.33019e-102
+          p          6.18768e-201          6.18768e-201          6.18768e-201
+
+ Resistor: Simple linear resistor
+     device                  rr58                  rr56                   rr5
+      model                     R                     R                     R
+ resistance                 10000                 10000                 10000
+         ac                 10000                 10000                 10000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                  rr57                  rfb1                  rr20
+      model                     R                     R                     R
+ resistance                 10000                  0.05                   330
+         ac                 10000                  0.05                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0         -4.33019e-102
+          p                     0                     0          6.18768e-201
+
+ Resistor: Simple linear resistor
+     device                   rr9                  rr50                  rr52
+      model                     R                     R                     R
+ resistance                 10000                 10000                 10000
+         ac                 10000                 10000                 10000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           -0.00021428          -0.000340645           0.000340645
+          p            0.00045916            0.00116039            0.00116039
+
+ Resistor: Simple linear resistor
+     device                  rr32                  rr31                  rr30
+      model                     R                     R                     R
+ resistance                   330                   330                   330
+         ac                   330                   330                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -5.63005e-26          -5.63001e-26          -5.62999e-26
+          p           1.04602e-48             1.046e-48             1.046e-48
+
+ Resistor: Simple linear resistor
+     device                  rr29                  rr28                  rr27
+      model                     R                     R                     R
+ resistance                   330                   330                   330
+         ac                   330                   330                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -5.63001e-26          -5.63001e-26          -5.63005e-26
+          p             1.046e-48             1.046e-48           1.04602e-48
+
+ Resistor: Simple linear resistor
+     device                  rr26                  rr25                   rr1
+      model                     R                     R                     R
+ resistance                   330                   330                 10000
+         ac                   330                   330                 10000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -5.63001e-26          -5.63005e-26           3.24962e-06
+          p             1.046e-48           1.04602e-48             1.056e-07
+
+ Resistor: Simple linear resistor
+     device                   rr3                   rr2                  rr11
+      model                     R                     R                     R
+ resistance                 10000                 10000                   330
+         ac                 10000                 10000                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           3.24962e-06           3.24962e-06            5.5649e-06
+          p             1.056e-07             1.056e-07           1.02195e-08
+
+ Resistor: Simple linear resistor
+     device           r.xu7.r_off                  rr62                  rr13
+      model                     R                     R                     R
+ resistance                 1e+06                 10000                   220
+         ac                 1e+06                 10000                   220
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0          -4.99985e-05          3.11714e-111
+          p                     0           2.49985e-05          2.13764e-219
+
+ Resistor: Simple linear resistor
+     device          r.xu28.r_off           r.xu9.r_off                  rr35
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                   330
+         ac                 1e+06                 1e+06                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.64106e-06                     0         -4.33019e-102
+          p           2.69307e-06                     0          6.18768e-201
+
+ Resistor: Simple linear resistor
+     device                  rr53          r.xu26.r_off                  rr49
+      model                     R                     R                     R
+ resistance                  4700                 1e+06                  4700
+         ac                  4700                 1e+06                  4700
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -0.000339052           1.64106e-06          -0.000339052
+          p           0.000540294           2.69307e-06           0.000540294
+
+ Resistor: Simple linear resistor
+     device                   rr8                   rr7                  rr43
+      model                     R                     R                     R
+ resistance                 10000                 1e+07                  4700
+         ac                 10000                 1e+07                  4700
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i               -0.0005                     0          -0.000339052
+          p                0.0025                     0           0.000540294
+
+ Resistor: Simple linear resistor
+     device                  rr38                  rr10          r.xu15.r_off
+      model                     R                     R                     R
+ resistance                  5100                   330                 1e+06
+         ac                  5100                   330                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0         -4.33019e-102            1.4286e-06
+          p                     0          6.18768e-201            2.0409e-06
+
+ Resistor: Simple linear resistor
+     device                  rr61                  rr47                  rr34
+      model                     R                     R                     R
+ resistance                 10000                  4700                   330
+         ac                 10000                  4700                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -4.99985e-05          -0.000339052         -4.33019e-102
+          p           2.49985e-05           0.000540294          6.18768e-201
+
+ Resistor: Simple linear resistor
+     device                   rr4                  rr14                  rr16
+      model                     R                     R                     R
+ resistance                 10000                   220                   220
+         ac                 10000                   220                   220
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0          3.11714e-111          3.11714e-111
+          p                     0          2.13764e-219          2.13764e-219
+
+ Resistor: Simple linear resistor
+     device                  rr37          r.xu30.r_off          r.xu11.r_off
+      model                     R                     R                     R
+ resistance                  5100                 1e+06                 1e+06
+         ac                  5100                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0           1.64106e-06            1.4286e-06
+          p                     0           2.69307e-06            2.0409e-06
+
+ Resistor: Simple linear resistor
+     device          r.xu33.r_off          r.xu17.r_off          r.xu13.r_off
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.64106e-06            1.4286e-06            1.4286e-06
+          p           2.69307e-06            2.0409e-06            2.0409e-06
+
+ Resistor: Simple linear resistor
+     device                  rr45                  rr39                  rr15
+      model                     R                     R                     R
+ resistance                  4700                 10000                   220
+         ac                  4700                 10000                   220
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -0.000339052                     0          3.11714e-111
+          p           0.000540294                     0          2.13764e-219
+
+ Resistor: Simple linear resistor
+     device           r.xu6.r_off                  rr55                  rr36
+      model                     R                     R                     R
+ resistance                 1e+06                  4700                   330
+         ac                 1e+06                  4700                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0          -0.000339052         -4.33019e-102
+          p                     0           0.000540294          6.18768e-201
+
+ Resistor: Simple linear resistor
+     device          r.xu31.r_off          r.xu12.r_off                  rr41
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                  4700
+         ac                 1e+06                 1e+06                  4700
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.64106e-06            1.4286e-06          -0.000339052
+          p           2.69307e-06            2.0409e-06           0.000540294
+
+ Resistor: Simple linear resistor
+     device          r.xu10.r_off          r.xu27.r_off                  rr33
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                   330
+         ac                 1e+06                 1e+06                   330
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i            1.4286e-06           1.64106e-06         -4.33019e-102
+          p            2.0409e-06           2.69307e-06          6.18768e-201
+
+ Resistor: Simple linear resistor
+     device          r.xu14.r_off          r.xu29.r_off          r.xu32.r_off
+      model                     R                     R                     R
+ resistance                 1e+06                 1e+06                 1e+06
+         ac                 1e+06                 1e+06                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i            1.4286e-06           1.64106e-06           1.64106e-06
+          p            2.0409e-06           2.69307e-06           2.69307e-06
+
+ Resistor: Simple linear resistor
+     device                  rr12          r.xu16.r_off                   rr6
+      model                     R                     R                     R
+ resistance                   330                 1e+06                 10000
+         ac                   330                 1e+06                 10000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i         -4.33019e-102            1.4286e-06                     0
+          p          6.18768e-201            2.0409e-06                     0
+
+ Resistor: Simple linear resistor
+     device           r.xu8.r_off                  rr51
+      model                     R                     R
+ resistance                 1e+06                  4700
+         ac                 1e+06                  4700
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i                     0          -0.000339052
+          p                     0           0.000540294
+
+ VCVS: Voltage controlled voltage source
+     device                eu20_b                eu20_a
+          i          -5.20084e-05          -5.20084e-05
+          v               1.50995               1.50995
+          p          -7.85304e-05          -7.85304e-05
+
+ Vsource: Independent voltage source
+     device                 v_in8                 v_in7                 v_in6
+         dc                     5                     5                     5
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i          -0.000345645          -0.000345645          -0.000345645
+          p           -0.00172823           -0.00172823           -0.00172823
+
+ Vsource: Independent voltage source
+     device                 v_in5                 v_in4                 v_in3
+         dc                     5                     5                     5
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i          -0.000345645          -0.000345645          -0.000345645
+          p           -0.00172823           -0.00172823           -0.00172823
+
+ Vsource: Independent voltage source
+     device                 v_in2                 v_in1             v_d15_drv
+         dc                     5                     5                     0
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i          -0.000345645          -0.000345645          3.11783e-111
+          p           -0.00172823           -0.00172823                     0
+
+ Vsource: Independent voltage source
+     device             v_d14_drv             v_d13_drv             v_d12_drv
+         dc                     0                     0                     0
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i          3.11783e-111          3.11783e-111          3.11783e-111
+          p                     0                     0                     0
+
+ Vsource: Independent voltage source
+     device              v_e7_drv              v_e6_drv              v_e5_drv
+         dc                     0                     0                     0
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i               12.0222         -4.33019e-102         -4.33019e-102
+          p                     0                    -0                    -0
+
+ Vsource: Independent voltage source
+     device              v_e4_drv              v_e3_drv              v_e2_drv
+         dc                     0                     0                     0
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i         -4.33019e-102         -4.33019e-102                 -0.05
+          p                    -0                    -0                    -0
+
+ Vsource: Independent voltage source
+     device              v_e1_drv              v_e0_drv              v_d7_drv
+         dc                     0                     0                     0
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i         -4.33019e-102         -4.33019e-102         -4.33162e-102
+          p                    -0                    -0                    -0
+
+ Vsource: Independent voltage source
+     device              v_d6_drv              v_d5_drv              v_d9_drv
+         dc                     0                     0                     0
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i         -4.33162e-102         -4.33162e-102         -4.33162e-102
+          p                    -0                    -0                    -0
+
+ Vsource: Independent voltage source
+     device              v_d8_drv                v_daq2                v_daq1
+         dc                     0                   0.5                   0.5
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i         -4.33162e-102                -5e-07                -5e-07
+          p                    -0              -2.5e-07              -2.5e-07
+
+ Vsource: Independent voltage source
+     device     v_sense_n3v3_ldo2      v_rail_n3v3_ldo2     v_sense_n3v3_ldo1
+         dc                     0                   3.3                     0
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i               12.0222              -12.0222             0.0800317
+          p                     0              -39.6733                     0
+
+ Vsource: Independent voltage source
+     device      v_rail_n3v3_ldo1           v_sense_n5v            v_rail_n5v
+         dc                   3.3                     0                     5
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i            -0.0800317               12.1128              -12.1128
+          p             -0.264105                     0              -60.5638
+
+ Vsource: Independent voltage source
+     device          v_sense_n12v           v_rail_n12v
+         dc                     0                    12
+      acmag                     0                     0
+      pulse                     -                     -
+        sin                     -                     -
+        exp                     -                     -
+        pwl                     -                     -
+       sffm                     -                     -
+         am                     -                     -
+    trnoise                     -                     -
+   trrandom                     -                     -
+    portnum                     0                     0
+         z0                     0                     0
+        pwr                     0                     0
+       freq                     0                     0
+      phase                     0                     0
+          i               5.94264              -5.94264
+          p                     0              -71.3117
+
+
+Total analysis time (seconds) = 0.0006108
+
+Total elapsed time (seconds) = 0.013 
+
+Total DRAM available = 16202.137 MB.
+DRAM currently available = 2489.441 MB.
+Maximum ngspice program size =    9.383 MB.
+Current ngspice program size =    9.379 MB.
+

@@ -1,0 +1,16 @@
+{
+  "xlim_mm": [
+    50.785,
+    149.285
+  ],
+  "ylim_mm_top": 51.655,
+  "ylim_mm_bottom": 171.125,
+  "png_width_px": 1514,
+  "png_height_px": 1830,
+  "board_bbox_mm": {
+    "x": 53.785,
+    "y": 54.655,
+    "w": 92.5,
+    "h": 113.47
+  }
+}

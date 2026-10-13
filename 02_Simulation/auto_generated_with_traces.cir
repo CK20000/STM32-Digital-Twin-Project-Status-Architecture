@@ -1,0 +1,572 @@
+* ====================================================
+* AUTO-GENERATED SPICE NETLIST
+* Source: digital_twin_netlist.json + component_classification.json
+* ====================================================
+
+* === Passive components ===
+CC9 0 N12v_TRACE 4.700e-04
+
+RR51 0 C2 4700.0000
+
+XU8 D14 Net__U8_C_ _f4_MOTORS_M3 0 6N137
+
+CC10 0 N12v_TRACE 1.000e-06
+
+RR6 0 boot0 10000.0000
+
+CC14 0 N3v3_LDO2_TRACE 1.000e-01
+
+CC23 0 PHO 2.200e-11
+
+CC22 0 N3v3_LDO2_TRACE 1.000e+00
+
+XU16 Net__R23_Pad1_ 0 N5v_TRACE _f4_IO_OE6 PC817
+
+RR12 0 Net__D5_K_ 330.0000
+
+* U5 STM32 static load (50 mA)
+IU5_vdd N3v3_LDO2_TRACE 0 DC 0.05
+
+CC13 0 N3v3_LDO2_TRACE 1.000e-01
+
+CC16 0 N3v3_LDO2_TRACE 1.000e-01
+
+XU32 Net__R26_Pad1_ 0 N3v3_LDO1_TRACE E9 PC817
+
+XU29 Net__R31_Pad1_ 0 N3v3_LDO1_TRACE E14 PC817
+
+CC2 0 N5v_TRACE 1.000e-05
+
+CC18 0 N3v3_LDO2_TRACE 1.000e-01
+
+XU14 Net__R21_Pad1_ 0 N5v_TRACE _f4_IO_OE4 PC817
+
+RR33 0 Net__D6_K_ 330.0000
+
+* U20 LM358 dual op-amp (ideal, gain=1e5)
+EU20_A Net__J9_Pin_1_ 0 daq1 Net__U20A___ 100000
+EU20_B Net__J9_Pin_2_ 0 daq2 Net__U20B___ 100000
+
+CC24 0 PH1 2.200e-11
+
+XU27 Net__R29_Pad1_ 0 N3v3_LDO1_TRACE E12 PC817
+
+XU10 Net__R17_Pad1_ 0 N5v_TRACE _f4_IO_OE0 PC817
+
+RR41 0 B1 4700.0000
+
+CC20 0 Net__U5_VCAP_2_ 2.200e-06
+
+XU12 Net__R19_Pad1_ 0 N5v_TRACE _f4_IO_OE2 PC817
+
+XU31 Net__R25_Pad1_ 0 N3v3_LDO1_TRACE E8 PC817
+
+RR36 0 Net__D9_K_ 330.0000
+
+RR55 0 C0 4700.0000
+
+CC21 0 N3v3_LDO2_TRACE 1.000e-01
+
+XU6 D13 Net__U6_C_ _f4_MOTORS_M2 0 6N137
+
+RR15 0 Net__U8_C_ 220.0000
+
+RR39 0 __RE__DE 10000.0000
+
+RR45 0 C5 4700.0000
+
+XU13 Net__R20_Pad1_ 0 N5v_TRACE _f4_IO_OE3 PC817
+
+CC6 0 N3v3_LDO1_TRACE 1.000e-07
+
+XU17 Net__R24_Pad1_ 0 N5v_TRACE _f4_IO_OE7 PC817
+
+XU33 Net__R27_Pad1_ 0 N3v3_LDO1_TRACE E10 PC817
+
+CC1 0 N5v_TRACE 1.000e-05
+
+XU11 Net__R18_Pad1_ 0 N5v_TRACE _f4_IO_OE1 PC817
+
+XU30 Net__R32_Pad1_ 0 N3v3_LDO1_TRACE E15 PC817
+
+RR37 0 Net__J4_CC2_ 5100.0000
+
+CC15 0 N3v3_LDO2_TRACE 1.000e-01
+
+RR16 0 Net__U9_C_ 220.0000
+
+RR14 0 Net__U6_C_ 220.0000
+
+RR4 0 Net__U4_GPIO15_ 10000.0000
+
+RR34 0 Net__D7_K_ 330.0000
+
+CC7 0 N3v3_LDO2_TRACE 2.200e-05
+
+RR47 0 C4 4700.0000
+
+RR61 0 Net__U20A___ 10000.0000
+
+CC12 0 N3v3_LDO2_TRACE 1.000e-01
+
+CC19 0 Net__U5_VCAP_1_ 2.200e-06
+
+CC5 0 N3v3_LDO1_TRACE 2.200e-05
+
+* D2 skipped (buck-companion, emulated by 5V rail)
+CC11 0 N5v_TRACE 1.800e-04
+
+XU15 Net__R22_Pad1_ 0 N5v_TRACE _f4_IO_OE5 PC817
+
+RR10 0 Net__D3_K_ 330.0000
+
+CC8 0 N3v3_LDO2_TRACE 1.000e-07
+
+RR38 0 Net__J4_CC1_ 5100.0000
+
+CC3 0 N5v_TRACE 1.000e-07
+
+RR43 0 B0 4700.0000
+
+RR7 0 0 10000000.0000
+
+RR8 0 N5v_sense 10000.0000
+
+RR49 0 C3 4700.0000
+
+* U4 ESP-12F load (80 mA)
+IU4_vcc N3v3_LDO1_TRACE 0 DC 0.08
+
+XU26 Net__R28_Pad1_ 0 N3v3_LDO1_TRACE E11 PC817
+
+RR53 0 C1 4700.0000
+
+CC17 0 N3v3_LDO2_TRACE 1.000e-01
+
+RR35 0 Net__D8_K_ 330.0000
+
+XU9 D15 Net__U9_C_ _f4_MOTORS_M4 0 6N137
+
+XU28 Net__R30_Pad1_ 0 N3v3_LDO1_TRACE E13 PC817
+
+CC4 0 N5v_TRACE 1.000e-07
+
+RR13 0 Net__U7_C_ 220.0000
+
+RR62 0 Net__U20B___ 10000.0000
+
+XU7 D12 Net__U7_C_ _f4_MOTORS_M1 0 6N137
+
+RR11 N3v3_LDO1_TRACE Net__D4_A_ 330.0000
+
+RR2 N3v3_LDO1_TRACE Net__U4___RST__ 10000.0000
+
+RR3 N3v3_LDO1_TRACE Net__U4_GPIO0_ 10000.0000
+
+RR1 N3v3_LDO1_TRACE Net__U4_EN_ 10000.0000
+
+RR25 _f4_IO_IE8 Net__R25_Pad1_ 330.0000
+
+RR26 _f4_IO_IE9 Net__R26_Pad1_ 330.0000
+
+RR27 _f4_IO_IE10 Net__R27_Pad1_ 330.0000
+
+RR28 _f4_IO_IE11 Net__R28_Pad1_ 330.0000
+
+RR29 _f4_IO_IE12 Net__R29_Pad1_ 330.0000
+
+RR30 _f4_IO_IE13 Net__R30_Pad1_ 330.0000
+
+RR31 _f4_IO_IE14 Net__R31_Pad1_ 330.0000
+
+RR32 _f4_IO_IE15 Net__R32_Pad1_ 330.0000
+
+RR52 _f4_A_IN_A_IN2 C1 10000.0000
+
+RR50 C2 _f4_A_IN_A_IN3 10000.0000
+
+DD10 Net__D10_A_ N5v_TRACE DIODEMOD
+
+RR9 N5v_TRACE N5v_sense 10000.0000
+
+* L1 skipped (buck-companion, emulated by 5V rail)
+DD4 Net__D4_A_ Net__D4_K_ LEDMOD
+
+RR20 Net__R20_Pad1_ E3 330.0000
+
+RFB1 N3v3_LDO2_TRACE Net__U5_VDDA_ 0.0500
+
+RR57 N3v3_LDO2_TRACE Net__U19___WP__slash_IO__2__ 10000.0000
+
+DD3 N3v3_LDO2_TRACE Net__D3_K_ LEDMOD
+
+RR5 N3v3_LDO2_TRACE nrst 10000.0000
+
+RR56 N3v3_LDO2_TRACE w_cs 10000.0000
+
+RR58 N3v3_LDO2_TRACE Net__U19___HOLD__slash___RESET__slash_IO__3__ 10000.0000
+
+RR23 Net__R23_Pad1_ E6 330.0000
+
+DD5 usb_led Net__D5_K_ LEDMOD
+
+RR19 E2 Net__R19_Pad1_ 330.0000
+
+RR21 E4 Net__R21_Pad1_ 330.0000
+
+RR22 E5 Net__R22_Pad1_ 330.0000
+
+RR54 C0 _f4_A_IN_A_IN1 10000.0000
+
+RR48 C3 _f4_A_IN_A_IN4 10000.0000
+
+RR46 C4 _f4_A_IN_A_IN5 10000.0000
+
+RR44 C5 _f4_A_IN_A_IN6 10000.0000
+
+RR42 B0 _f4_A_IN_A_IN7 10000.0000
+
+RR40 B1 _f4_A_IN_A_IN8 10000.0000
+
+RR24 E7 Net__R24_Pad1_ 330.0000
+
+DD6 D0 Net__D6_K_ LEDMOD
+
+DD7 D1 Net__D7_K_ LEDMOD
+
+DD8 D2 Net__D8_K_ LEDMOD
+
+DD9 D3 Net__D9_K_ LEDMOD
+
+RR17 E0 Net__R17_Pad1_ 330.0000
+
+RR18 E1 Net__R18_Pad1_ 330.0000
+
+RR59 Net__J9_Pin_1_ Net__U20A___ 20000.0000
+
+RR60 Net__U20B___ Net__J9_Pin_2_ 20000.0000
+
+RR63 Net__J5_Pin_2_ Net__J10_Pin_2_ 120.0000
+
+* === Power rails with upstream current reflection ===
+* --- Rail 12v (12.0 V) ---
+V_rail_N12v N12v_SRC 0 DC 12.0
+V_sense_N12v N12v_SRC N12v_SENSE DC 0
+R_rail_N12v N12v_SENSE N12v 0.01
+* --- Rail 5v (5.0 V) ---
+V_rail_N5v N5v_SRC 0 DC 5.0
+V_sense_N5v N5v_SRC N5v_SENSE DC 0
+R_rail_N5v N5v_SENSE N5v 0.15
+* reflect 5v load -> 12v (gain 0.4902)
+F_N5v_reflect N12v_TRACE 0 V_sense_N5v 0.490196
+* --- Rail 3v3-LDO1 (3.3 V) ---
+V_rail_N3v3_LDO1 N3v3_LDO1_SRC 0 DC 3.3
+V_sense_N3v3_LDO1 N3v3_LDO1_SRC N3v3_LDO1_SENSE DC 0
+R_rail_N3v3_LDO1 N3v3_LDO1_SENSE N3v3_LDO1 0.2
+* reflect 3v3-LDO1 load -> 5v (gain 1.0000)
+F_N3v3_LDO1_reflect N5v_TRACE 0 V_sense_N3v3_LDO1 1.000000
+* --- Rail 3v3-LDO2 (3.3 V) ---
+V_rail_N3v3_LDO2 N3v3_LDO2_SRC 0 DC 3.3
+V_sense_N3v3_LDO2 N3v3_LDO2_SRC N3v3_LDO2_SENSE DC 0
+R_rail_N3v3_LDO2 N3v3_LDO2_SENSE N3v3_LDO2 0.2
+* reflect 3v3-LDO2 load -> 5v (gain 1.0000)
+F_N3v3_LDO2_reflect N5v_TRACE 0 V_sense_N3v3_LDO2 1.000000
+
+* Regulator quiescent currents
+I_U3_quiescent N12v_TRACE 0 DC 0.005
+I_U1_quiescent N5v_TRACE 0 DC 0.005
+I_U2_quiescent N5v_TRACE 0 DC 0.005
+
+* === DAC sources ===
+V_daq1 daq1 0 DC 0.5
+V_daq2 daq2 0 DC 0.5
+
+* === LED drive sources (firmware-controlled) ===
+* D7 drive from GPIO
+V_D7_drv D1 0 DC 0.0
+* D9 drive from GPIO
+V_D9_drv D3 0 DC 0.0
+* D6 drive from GPIO
+V_D6_drv D0 0 DC 0.0
+* D5 drive from GPIO
+V_D5_drv usb_led 0 DC 0.0
+* D3 skipped â€” no GPIO drive net (power indicator)
+* D8 drive from GPIO
+V_D8_drv D2 0 DC 0.0
+* D4 skipped â€” no GPIO drive net (power indicator)
+
+* === Industrial output drivers (firmware-controlled) ===
+* e0 drive from MCU GPIO
+V_e0_drv E0 0 DC 0.0
+* e1 drive from MCU GPIO
+V_e1_drv E1 0 DC 0.0
+* e2 drive from MCU GPIO
+V_e2_drv E2 0 DC 0.0
+* e3 drive from MCU GPIO
+V_e3_drv E3 0 DC 0.0
+* e4 drive from MCU GPIO
+V_e4_drv E4 0 DC 0.0
+* e5 drive from MCU GPIO
+V_e5_drv E5 0 DC 0.0
+* e6 drive from MCU GPIO
+V_e6_drv E6 0 DC 0.0
+* e7 drive from MCU GPIO
+V_e7_drv E7 0 DC 0.0
+* d12 drive from MCU GPIO
+V_d12_drv D12 0 DC 0.0
+* d13 drive from MCU GPIO
+V_d13_drv D13 0 DC 0.0
+* d14 drive from MCU GPIO
+V_d14_drv D14 0 DC 0.0
+* d15 drive from MCU GPIO
+V_d15_drv D15 0 DC 0.0
+
+* === Industrial input sources (panel-driven) ===
+* ie8 input (J3 pin 9)
+V_ie8_drv _f4_IO_IE8 0 DC 0.0
+* ie9 input (J3 pin 10)
+V_ie9_drv _f4_IO_IE9 0 DC 0.0
+* ie10 input (J3 pin 11)
+V_ie10_drv _f4_IO_IE10 0 DC 0.0
+* ie11 input (J3 pin 12)
+V_ie11_drv _f4_IO_IE11 0 DC 0.0
+* ie12 input (J3 pin 13)
+V_ie12_drv _f4_IO_IE12 0 DC 0.0
+* ie13 input (J3 pin 14)
+V_ie13_drv _f4_IO_IE13 0 DC 0.0
+* ie14 input (J3 pin 15)
+V_ie14_drv _f4_IO_IE14 0 DC 0.0
+* ie15 input (J3 pin 16)
+V_ie15_drv _f4_IO_IE15 0 DC 0.0
+
+* === Input pin pull-downs (E8..E15) ===
+R_pd_E8 E8 0 10k
+R_pd_E9 E9 0 10k
+R_pd_E10 E10 0 10k
+R_pd_E11 E11 0 10k
+R_pd_E12 E12 0 10k
+R_pd_E13 E13 0 10k
+R_pd_E14 E14 0 10k
+R_pd_E15 E15 0 10k
+
+* === Analog input stimuli ===
+V_in1 V_in1_src 0 DC 5.0
+R_in1_src V_in1_src _f4_A_IN_A_IN1 0.01
+V_in2 V_in2_src 0 DC 5.0
+R_in2_src V_in2_src _f4_A_IN_A_IN2 0.01
+V_in3 V_in3_src 0 DC 5.0
+R_in3_src V_in3_src _f4_A_IN_A_IN3 0.01
+V_in4 V_in4_src 0 DC 5.0
+R_in4_src V_in4_src _f4_A_IN_A_IN4 0.01
+V_in5 V_in5_src 0 DC 5.0
+R_in5_src V_in5_src _f4_A_IN_A_IN5 0.01
+V_in6 V_in6_src 0 DC 5.0
+R_in6_src V_in6_src _f4_A_IN_A_IN6 0.01
+V_in7 V_in7_src 0 DC 5.0
+R_in7_src V_in7_src _f4_A_IN_A_IN7 0.01
+V_in8 V_in8_src 0 DC 5.0
+R_in8_src V_in8_src _f4_A_IN_A_IN8 0.01
+
+* === Anti-floating leak resistors ===
+R_leak_0 _f4_A_IN_A_IN1 0 1Meg
+R_leak_1 _f4_A_IN_A_IN2 0 1Meg
+R_leak_2 _f4_A_IN_A_IN3 0 1Meg
+R_leak_3 _f4_A_IN_A_IN4 0 1Meg
+R_leak_4 _f4_A_IN_A_IN5 0 1Meg
+R_leak_5 _f4_A_IN_A_IN6 0 1Meg
+R_leak_6 _f4_A_IN_A_IN7 0 1Meg
+R_leak_7 _f4_A_IN_A_IN8 0 1Meg
+R_leak_8 _f4_IO_IE10 0 1Meg
+R_leak_9 _f4_IO_IE11 0 1Meg
+R_leak_10 _f4_IO_IE12 0 1Meg
+R_leak_11 _f4_IO_IE13 0 1Meg
+R_leak_12 _f4_IO_IE14 0 1Meg
+R_leak_13 _f4_IO_IE15 0 1Meg
+R_leak_14 _f4_IO_IE8 0 1Meg
+R_leak_15 _f4_IO_IE9 0 1Meg
+R_leak_16 _f4_IO_OE0 0 1Meg
+R_leak_17 _f4_IO_OE1 0 1Meg
+R_leak_18 _f4_IO_OE2 0 1Meg
+R_leak_19 _f4_IO_OE3 0 1Meg
+R_leak_20 _f4_IO_OE4 0 1Meg
+R_leak_21 _f4_IO_OE5 0 1Meg
+R_leak_22 _f4_IO_OE6 0 1Meg
+R_leak_23 _f4_IO_OE7 0 1Meg
+R_leak_24 _f4_MOTORS_M1 0 1Meg
+R_leak_25 _f4_MOTORS_M2 0 1Meg
+R_leak_26 _f4_MOTORS_M3 0 1Meg
+R_leak_27 _f4_MOTORS_M4 0 1Meg
+R_leak_28 N12v_TRACE 0 1Meg
+R_leak_29 N3v3_LDO1_TRACE 0 1Meg
+R_leak_30 N3v3_LDO2_TRACE 0 1Meg
+R_leak_31 N5v_TRACE 0 1Meg
+R_leak_32 N5v_sense 0 1Meg
+R_leak_33 B0 0 1Meg
+R_leak_34 B1 0 1Meg
+R_leak_35 C0 0 1Meg
+R_leak_36 C1 0 1Meg
+R_leak_37 C2 0 1Meg
+R_leak_38 C3 0 1Meg
+R_leak_39 C4 0 1Meg
+R_leak_40 C5 0 1Meg
+R_leak_41 D0 0 1Meg
+R_leak_42 D1 0 1Meg
+R_leak_43 D12 0 1Meg
+R_leak_44 D13 0 1Meg
+R_leak_45 D14 0 1Meg
+R_leak_46 D15 0 1Meg
+R_leak_47 D2 0 1Meg
+R_leak_48 D3 0 1Meg
+R_leak_49 E0 0 1Meg
+R_leak_50 E1 0 1Meg
+R_leak_51 E10 0 1Meg
+R_leak_52 E11 0 1Meg
+R_leak_53 E12 0 1Meg
+R_leak_54 E13 0 1Meg
+R_leak_55 E14 0 1Meg
+R_leak_56 E15 0 1Meg
+R_leak_57 E2 0 1Meg
+R_leak_58 E3 0 1Meg
+R_leak_59 E4 0 1Meg
+R_leak_60 E5 0 1Meg
+R_leak_61 E6 0 1Meg
+R_leak_62 E7 0 1Meg
+R_leak_63 E8 0 1Meg
+R_leak_64 E9 0 1Meg
+R_leak_66 Net__D10_A_ 0 1Meg
+R_leak_67 Net__D2_K_ 0 1Meg
+R_leak_68 Net__D3_K_ 0 1Meg
+R_leak_69 Net__D4_A_ 0 1Meg
+R_leak_70 Net__D4_K_ 0 1Meg
+R_leak_71 Net__D5_K_ 0 1Meg
+R_leak_72 Net__D6_K_ 0 1Meg
+R_leak_73 Net__D7_K_ 0 1Meg
+R_leak_74 Net__D8_K_ 0 1Meg
+R_leak_75 Net__D9_K_ 0 1Meg
+R_leak_76 Net__J10_Pin_1_ 0 1Meg
+R_leak_77 Net__J10_Pin_2_ 0 1Meg
+R_leak_78 Net__J4_CC1_ 0 1Meg
+R_leak_79 Net__J4_CC2_ 0 1Meg
+R_leak_80 Net__J5_Pin_2_ 0 1Meg
+R_leak_81 Net__J9_Pin_1_ 0 1Meg
+R_leak_82 Net__J9_Pin_2_ 0 1Meg
+R_leak_83 Net__R17_Pad1_ 0 1Meg
+R_leak_84 Net__R18_Pad1_ 0 1Meg
+R_leak_85 Net__R19_Pad1_ 0 1Meg
+R_leak_86 Net__R20_Pad1_ 0 1Meg
+R_leak_87 Net__R21_Pad1_ 0 1Meg
+R_leak_88 Net__R22_Pad1_ 0 1Meg
+R_leak_89 Net__R23_Pad1_ 0 1Meg
+R_leak_90 Net__R24_Pad1_ 0 1Meg
+R_leak_91 Net__R25_Pad1_ 0 1Meg
+R_leak_92 Net__R26_Pad1_ 0 1Meg
+R_leak_93 Net__R27_Pad1_ 0 1Meg
+R_leak_94 Net__R28_Pad1_ 0 1Meg
+R_leak_95 Net__R29_Pad1_ 0 1Meg
+R_leak_96 Net__R30_Pad1_ 0 1Meg
+R_leak_97 Net__R31_Pad1_ 0 1Meg
+R_leak_98 Net__R32_Pad1_ 0 1Meg
+R_leak_99 Net__U19___HOLD__slash___RESET__slash_IO__3__ 0 1Meg
+R_leak_100 Net__U19___WP__slash_IO__2__ 0 1Meg
+R_leak_101 Net__U20A___ 0 1Meg
+R_leak_102 Net__U20B___ 0 1Meg
+R_leak_103 Net__U4_EN_ 0 1Meg
+R_leak_104 Net__U4_GPIO0_ 0 1Meg
+R_leak_105 Net__U4_GPIO15_ 0 1Meg
+R_leak_106 Net__U4___RST__ 0 1Meg
+R_leak_107 Net__U5_VCAP_1_ 0 1Meg
+R_leak_108 Net__U5_VCAP_2_ 0 1Meg
+R_leak_109 Net__U5_VDDA_ 0 1Meg
+R_leak_110 Net__U6_C_ 0 1Meg
+R_leak_111 Net__U7_C_ 0 1Meg
+R_leak_112 Net__U8_C_ 0 1Meg
+R_leak_113 Net__U9_C_ 0 1Meg
+R_leak_114 PH1 0 1Meg
+R_leak_115 PHO 0 1Meg
+R_leak_116 SWCLK 0 1Meg
+R_leak_117 SWDIO 0 1Meg
+R_leak_118 USB_D_ 0 1Meg
+R_leak_119 USB_D_ 0 1Meg
+R_leak_120 boot0 0 1Meg
+R_leak_121 cs 0 1Meg
+R_leak_122 daq1 0 1Meg
+R_leak_123 daq2 0 1Meg
+R_leak_124 miso 0 1Meg
+R_leak_125 mosi 0 1Meg
+R_leak_126 nrst 0 1Meg
+R_leak_127 rx 0 1Meg
+R_leak_128 rx2 0 1Meg
+R_leak_129 sck 0 1Meg
+R_leak_130 scl 0 1Meg
+R_leak_131 sda 0 1Meg
+R_leak_132 tx 0 1Meg
+R_leak_133 tx2 0 1Meg
+R_leak_134 unconnected__J4_SBU1_PadA8_ 0 1Meg
+R_leak_135 unconnected__J4_SBU2_PadB8_ 0 1Meg
+R_leak_136 unconnected__U4_ADC_Pad2_ 0 1Meg
+R_leak_137 unconnected__U4_CS0_Pad9_ 0 1Meg
+R_leak_138 unconnected__U4_GPIO10_Pad12_ 0 1Meg
+R_leak_139 unconnected__U4_GPIO12_Pad6_ 0 1Meg
+R_leak_140 unconnected__U4_GPIO13_Pad7_ 0 1Meg
+R_leak_141 unconnected__U4_GPIO14_Pad5_ 0 1Meg
+R_leak_142 unconnected__U4_GPIO16_Pad4_ 0 1Meg
+R_leak_143 unconnected__U4_GPIO4_Pad19_ 0 1Meg
+R_leak_144 unconnected__U4_GPIO5_Pad20_ 0 1Meg
+R_leak_145 unconnected__U4_GPIO9_Pad11_ 0 1Meg
+R_leak_146 unconnected__U4_MISO_Pad10_ 0 1Meg
+R_leak_147 unconnected__U4_MOSI_Pad13_ 0 1Meg
+R_leak_148 unconnected__U4_SCLK_Pad14_ 0 1Meg
+R_leak_149 unconnected__U5_PA1_Pad24_ 0 1Meg
+R_leak_150 unconnected__U5_PA10_Pad69_ 0 1Meg
+R_leak_151 unconnected__U5_PA15_Pad77_ 0 1Meg
+R_leak_152 unconnected__U5_PA6_Pad31_ 0 1Meg
+R_leak_153 unconnected__U5_PA7_Pad32_ 0 1Meg
+R_leak_154 unconnected__U5_PA8_Pad67_ 0 1Meg
+R_leak_155 unconnected__U5_PB2_Pad37_ 0 1Meg
+R_leak_156 unconnected__U5_PB8_Pad95_ 0 1Meg
+R_leak_157 unconnected__U5_PB9_Pad96_ 0 1Meg
+R_leak_158 unconnected__U5_PC10_Pad78_ 0 1Meg
+R_leak_159 unconnected__U5_PC11_Pad79_ 0 1Meg
+R_leak_160 unconnected__U5_PC12_Pad80_ 0 1Meg
+R_leak_161 unconnected__U5_PC13_Pad7_ 0 1Meg
+R_leak_162 unconnected__U5_PC14_Pad8_ 0 1Meg
+R_leak_163 unconnected__U5_PC15_Pad9_ 0 1Meg
+R_leak_164 unconnected__U5_PC6_Pad63_ 0 1Meg
+R_leak_165 unconnected__U5_PC7_Pad64_ 0 1Meg
+R_leak_166 unconnected__U5_PC8_Pad65_ 0 1Meg
+R_leak_167 unconnected__U5_PC9_Pad66_ 0 1Meg
+R_leak_168 unconnected__U5_PD10_Pad57_ 0 1Meg
+R_leak_169 unconnected__U5_PD4_Pad85_ 0 1Meg
+R_leak_170 unconnected__U5_PD5_Pad86_ 0 1Meg
+R_leak_171 unconnected__U5_PD6_Pad87_ 0 1Meg
+R_leak_172 unconnected__U5_PD8_Pad55_ 0 1Meg
+R_leak_173 unconnected__U5_PD9_Pad56_ 0 1Meg
+R_leak_174 unconnected__U6_NC_Pad1_ 0 1Meg
+R_leak_175 unconnected__U6_NC_Pad4_ 0 1Meg
+R_leak_176 unconnected__U7_NC_Pad1_ 0 1Meg
+R_leak_177 unconnected__U7_NC_Pad4_ 0 1Meg
+R_leak_178 unconnected__U8_NC_Pad1_ 0 1Meg
+R_leak_179 unconnected__U8_NC_Pad4_ 0 1Meg
+R_leak_180 unconnected__U9_NC_Pad1_ 0 1Meg
+R_leak_181 unconnected__U9_NC_Pad4_ 0 1Meg
+R_leak_182 usb_led 0 1Meg
+R_leak_183 w_clk 0 1Meg
+R_leak_184 w_cs 0 1Meg
+R_leak_185 w_miso 0 1Meg
+R_leak_186 w_mosi 0 1Meg
+R_leak_187 __RE__DE 0 1Meg
+
+* === Device models ===
+.include optocoupler.lib
+.model LEDMOD D(Is=1e-14 N=2.0 Rs=5 Cj=0 Tt=0)
+.model DIODEMOD D(Is=1e-14 N=1.05 Rs=0.5 Cj=0 Tt=0)
+
+.op
+
+* === Trace resistance (from KiCad copper geometry) ===
+R_trace_N12v N12v N12v_TRACE 0.004967
+R_trace_N5v N5v N5v_TRACE 0.026915
+R_trace_N3v3_LDO1 N3v3_LDO1 N3v3_LDO1_TRACE 0.023498
+R_trace_N3v3_LDO2 N3v3_LDO2 N3v3_LDO2_TRACE 0.074492
+
+.end

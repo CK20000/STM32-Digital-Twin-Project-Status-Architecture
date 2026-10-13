@@ -1,0 +1,27 @@
+# 1. Create the machine and load the STM32F407 platform
+mach create "plc_twin"
+
+# 2. Load the platform description
+machine LoadPlatformDescription @platforms/cpus/stm32f4.repl
+
+# 3. Load the compiled firmware binary
+sysbus LoadELF @firmware/automation_plc.elf
+
+# 4. Expose UARTs as TCP Server Sockets for the Python/ZeroMQ bridge
+# USART2 (PA2/PA3) - Connected to MAX3485 RS-485
+emulation CreateServerSocketTerminal 12345 "rs485_socket"
+connector Connect sysbus.usart2 rs485_socket
+
+# USART3 (PB10/PB11) - Connected to ESP-12F Wi-Fi
+emulation CreateServerSocketTerminal 12346 "esp_socket"
+connector Connect sysbus.usart3 esp_socket
+
+# 5. (Optional) Open analyzers in the Renode GUI to watch UART traffic
+# showAnalyzer sysbus.usart2
+# showAnalyzer sysbus.usart3
+
+# 6. Start the simulation
+# Note: Renode's monitor is enabled via the --port 1234 flag in run_core.bat
+# (renode --port 1234 machine.resc). Do NOT create a socket terminal on 1234
+# here — that would hijack the monitor port and block external clients.
+start
