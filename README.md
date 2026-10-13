@@ -916,6 +916,144 @@ in a 3x2 grid. Animations are throttled based on the number of visible
 plots (150 ms single, 400 ms ×2, 1000 ms ×3-4, 1500 ms ×5-6) so CPU
 stays bounded. Dark OS title bar via DwmSetWindowAttribute.
 
+### Milestone 15: USB Circuit Verification
+
+Added a full USB pre-fab verification pass: eleven checks covering CC
+pulldowns, VBUS power path, D+/D− routing, VBUS sense, BOOT0 strap,
+ESD, pin mux, and USB-only power margin. Landed as two additions, both
+inside existing files:
+
+- `board_health.py` — USB topology (static) + one-shot ngspice sweep
+- `renode_reader.py` — `snapshot_usb_regs()` reading RCC_AHB2ENR,
+  GPIOA_MODER, GPIOA_AFRH via 16-bit word reads
+
+No new files in the shipped pipeline. The whole thing folds into the
+existing health report, so every USB check runs on every
+`board_health.py` invocation.
+
+#### USB verification results (final)
+
+| Check                    | Status | Detail |
+|--------------------------|--------|--------|
+| USB CC1                  | PASS   | R38 = 5.1 kΩ pulldown to GND |
+| USB CC2                  | PASS   | R37 = 5.1 kΩ pulldown to GND |
+| USB VBUS diode           | PASS   | D10 anode→VBUS, cathode→5V |
+| USB D+ → PA12            | PASS   | U5 pin 71 |
+| USB D- → PA11            | PASS   | U5 pin 70 |
+| USB VBUS sense           | WARN   | PA9 → usb_led; `vbus_sensing_enable = DISABLE` (verified in `cube_mx/automation_plc/USB_DEVICE/Target/usbd_conf.c:343`) |
+| USB BOOT0 strap          | PASS   | R6 10 kΩ pulldown + SW2 → 3v3 |
+| USB ESD                  | WARN   | none on D+/D− (rev B todo) |
+| USB PA11 mux             | PASS   | MODER=2, AF=10 |
+| USB PA12 mux             | PASS   | MODER=2, AF=10 |
+| USB pwr margin           | PASS   | worst V_3V3 = 3.30 V @ VBUS = 5.00 V, 100 mA |
+
+#### Two measurement bugs found and fixed
+
+Neither bug was a firmware problem. Both were measurement-layer
+artifacts in `renode_reader.py`.
+
+**Byte-read stub.** `snapshot_usb_regs()` was calling
+`sysbus ReadBytes 0x40020000 4`. Renode's STM32F4 `gpioPortA`
+rejects byte reads — it returns a stub of zeros and logs
+`Attempted Byte read isn't supported by the peripheral`. This made
+`GPIOA_MODER` and `GPIOA_AFRH` both read as `0x00000000`, which is
+why the health check initially reported the USB pins as unconfigured.
+Fixed by switching to `sysbus ReadWord` (16-bit) at word-aligned
+offsets, reassembling 32-bit registers from two halves.
+
+**AFRH half-read.** `GPIOA_AFRH` is a 32-bit register: PA8's AF is
+in bits 0–3, PA15's in bits 28–31. The original code only read the
+low 16 bits (covering PA8..PA11). PA12's AF nibble lives in bits
+16–19, so it read as zero. Fixed by reading the second 16-bit half
+at offset `+0x02` and shifting PA12's nibble down before masking.
+
+#### Firmware source confirmation
+
+`hpcd_USB_OTG_FS.Init.vbus_sensing_enable = DISABLE;` at
+`cube_mx/automation_plc/USB_DEVICE/Target/usbd_conf.c:343`. Correct
+config for a board where PA9 drives the USB LED rather than a VBUS
+divider. Without it the OTG core would silently wait forever for a
+VBUS-high that never arrives on PA9, and enumeration would fail with
+no visible error on the host side.
+
+#### HSE re-verification (paired run)
+
+Ran `hse_analyzer.py --plot` against the same live pipeline. All
+crystal physics checks pass with large margin:
+
+| Check              | Value      | Limit    | Margin |
+|--------------------|------------|----------|--------|
+| Gain margin        | 30.49×     | ≥ 5×     | 6.1×   |
+| Negative-R margin  | 82.42×     | ≥ 5×     | 16.5×  |
+| Drive level        | 37.9 µW    | ≤ 100 µW | 2.6×   |
+| EMI closest        | 17.0 mm    | ≥ 5 mm   | 3.4×   |
+| Crystal drift      | −1.00 ppm  | ± 15 ppm | 15×    |
+
+Crystal Y1 sits around 30 °C under live USB + 12 V load (ΔT +5 °C
+from a 25 °C ambient). AT-cut drift at that temperature is well under
+any communication-relevant budget — the 48 MHz PLL clock fed from
+this crystal will be accurate to a few ppm, three orders of magnitude
+tighter than USB full-speed's ±2500 ppm tolerance.
+
+#### Post-fab items (not testable in the twin)
+
+These require real silicon and a real host. Renode's STM32F4 model
+has no OTG peripheral, so every write to the `0x50000000` register
+range is stubbed and every read returns zero.
+
+- [ ] **Enumeration.** Plug into a Win10/11 host and confirm a new
+      "USB Serial Device (COMx)" appears in Device Manager.
+- [ ] **DFU entry.** Hold SW2 (BOOT0 high) at reset and confirm the
+      ST ROM bootloader enumerates as "STM32 BOOTLOADER".
+- [ ] **Signal integrity.** Scope the D+/D− eye, verify rise time and
+      impedance. The board currently has no series damping resistors
+      (ST reference uses 22–33 Ω). Full-speed USB is tolerant at these
+      trace lengths; add them on rev B only if intermittent dropouts
+      appear in the field.
+- [ ] **USB-only operation.** Unplug the 12 V supply and confirm the
+      3.3 V rails still hold on USB alone. The SPICE sweep says yes
+      across every realistic host voltage and load current, but the
+      sweep uses a linearized AMS1117 dropout figure and a
+      datasheet-accurate SS14 model — worth confirming against
+      silicon.
+
+---
+
+## KNOWN TOOL BUGS (measurement layer)
+
+Things that aren't firmware or hardware bugs, but that will look like
+them if you're not aware. Documented here so future-me doesn't chase
+them again.
+
+- **Renode's STM32F4 GPIO models reject byte reads.** `gpioPortA`
+  (and every other port) returns zero stubs for `ReadBytes` at any
+  offset. Use `sysbus ReadWord` (16-bit) at word-aligned offsets for
+  every GPIO register access. Reading a 32-bit register requires two
+  ReadWord calls, low half first.
+
+- **SYSCFG is not modeled.** Reads at `0x40013800` return "non
+  existing peripheral". Any boot-mode check via `SYSCFG_MEMRMP` is
+  meaningless in the twin; it will always read as zero.
+
+- **The Renode monitor is single-client.** `renode_reader.py` owns
+  the TCP connection on port 1234. A second concurrent client will
+  connect at the socket level but never receive a prompt or answer
+  a command. Stop the reader first, or use `renode_cmd.py` (which
+  makes a single connection, issues one command, disconnects).
+
+- **The Renode telnet monitor does not emit its prompt until it sees
+  a newline.** Send a bare `\n` immediately after connecting, then
+  wait ~200 ms for the greeting. `renode_reader.py` and
+  `renode_cmd.py` already do this; new scripts that talk to the
+  monitor must do the same.
+
+- **The OTG_FS peripheral is not modeled either.** Every access to
+  `0x50000000..0x50000FFF` is stubbed. Firmware that calls
+  `USB_OTG_CoreInit()` will appear to succeed (writes are swallowed,
+  reads return zero), but no enumeration state can be observed
+  from inside the twin. This is why the USB section is split into
+  "pre-fab verified" and "post-fab hardware test".
+
 ---
 
 ## ARCHITECTURE DIAGRAM
@@ -1042,8 +1180,9 @@ The project has achieved a complete, closed-loop digital twin:
    inside a single unified PyQt6 dashboard that also embeds the
    control panel and the live pipeline consoles.
 
-4. **Automated health check** — 12-test battery that confirms the
-   board is behaving correctly, with CI-friendly exit codes.
+4. **Automated health check** — 21-test battery (12 original + 9 USB)
+   that confirms the board is behaving correctly, with CI-friendly
+   exit codes.
 
 5. **Zero hardcoded knowledge** — every value on screen traces back to
    a real KiCad component through real firmware through real SPICE
